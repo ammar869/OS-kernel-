@@ -34,7 +34,10 @@ set(EXISTING_SOURCES
     src/kernel/MemoryManager.cpp
     src/kernel/SyncManager.cpp
     src/kernel/MetricsCollector.cpp
+    src/controllers/SimulationController.cpp
+    src/controllers/ConfigurationManager.cpp
     src/gui/MainWindow.cpp
+    src/gui/Dashboard.cpp
     src/utils/InputValidator.cpp
 )
 

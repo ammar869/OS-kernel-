@@ -5,6 +5,7 @@
 #include <vector>
 #include <unordered_map>
 #include <mutex>
+#include <string>
 
 /**
  * @brief Collects and calculates performance metrics for the simulation

@@ -13,7 +13,7 @@ MetricsCollector::MetricsCollector()
 void MetricsCollector::recordProcessCreation(const ProcessControlBlock& process) {
     std::lock_guard<std::mutex> lock(metrics_mutex_);
     
-    process_info_[process.pid] = ProcessTrackingInfo(process);
+    process_info_.emplace(process.pid, ProcessTrackingInfo(process));
     total_processes_++;
 }
 
