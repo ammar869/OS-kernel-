@@ -31,6 +31,9 @@ set(EXISTING_SOURCES
     src/models/SyncPrimitive.cpp
     src/kernel/ProcessManager.cpp
     src/kernel/Scheduler.cpp
+    src/kernel/MemoryManager.cpp
+    src/kernel/SyncManager.cpp
+    src/kernel/MetricsCollector.cpp
     src/gui/MainWindow.cpp
     src/utils/InputValidator.cpp
 )

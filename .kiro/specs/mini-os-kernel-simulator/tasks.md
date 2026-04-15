@@ -88,7 +88,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
   - Ensure all tests pass, verify process creation and scheduling algorithms work correctly, ask the user if questions arise.
 
 - [ ] 5. Memory Management System
-  - [-] 5.1 Implement core MemoryManager class
+  - [x] 5.1 Implement core MemoryManager class
     - Create PageFrame and PageTableEntry structures
     - Implement page allocation and deallocation methods
     - Add page table management and virtual-to-physical mapping
@@ -102,7 +102,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 11: Memory Usage Tracking**
     - **Validates: Requirements 3.8**
 
-  - [ ] 5.4 Implement page replacement algorithms
+  - [x] 5.4 Implement page replacement algorithms
     - Create PageReplacementAlgorithm interface
     - Implement FIFOReplacementAlgorithm class
     - Implement LRUReplacementAlgorithm class
@@ -112,7 +112,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 9: Page Replacement Algorithm Correctness**
     - **Validates: Requirements 3.4, 3.5, 3.6**
 
-  - [ ] 5.6 Implement page fault handling
+  - [x] 5.6 Implement page fault handling
     - Add page fault detection and handling logic
     - Integrate with page replacement algorithms
     - Update page tables after fault resolution
@@ -123,7 +123,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Validates: Requirements 3.7**
 
 - [ ] 6. Synchronization Primitives
-  - [ ] 6.1 Implement SyncManager with Semaphore class
+  - [x] 6.1 Implement SyncManager with Semaphore class
     - Create Semaphore class with wait/signal operations
     - Implement process blocking and waking mechanisms
     - Add thread-safe counter management
@@ -133,7 +133,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 12: Semaphore Synchronization**
     - **Validates: Requirements 4.1, 4.3, 4.4, 4.5**
 
-  - [ ] 6.3 Implement Mutex class
+  - [x] 6.3 Implement Mutex class
     - Create Mutex class with lock/unlock operations
     - Implement mutual exclusion and ownership tracking
     - Add process queuing for blocked processes
@@ -143,7 +143,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 13: Mutex Synchronization**
     - **Validates: Requirements 4.2, 4.6**
 
-  - [ ] 6.5 Implement deadlock prevention mechanisms
+  - [x] 6.5 Implement deadlock prevention mechanisms
     - Add resource ordering and deadlock detection
     - Implement prevention strategies
     - _Requirements: 4.7_
@@ -153,7 +153,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Validates: Requirements 4.7**
 
 - [ ] 7. Performance Metrics Collection
-  - [ ] 7.1 Implement MetricsCollector class
+  - [x] 7.1 Implement MetricsCollector class
     - Create metrics calculation algorithms for waiting time, turnaround time, response time
     - Implement CPU utilization and throughput calculations
     - Add real-time metrics updating during simulation
@@ -167,7 +167,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 16: Real-time Metrics Updates**
     - **Validates: Requirements 5.6, 5.7**
 
-  - [ ] 7.4 Implement metrics reporting and export functionality
+  - [x] 7.4 Implement metrics reporting and export functionality
     - Add comprehensive report generation
     - Create export methods for metrics data
     - _Requirements: 5.7_
