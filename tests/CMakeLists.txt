@@ -1,31 +1,18 @@
-# Test configuration
-find_package(Qt6 REQUIRED COMPONENTS Test)
+find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
-# Test sources
-set(TEST_SOURCES
-    test_ProcessManager.cpp
-    test_Scheduler.cpp
-    test_MemoryManager.cpp
-    test_SyncManager.cpp
-    test_MetricsCollector.cpp
-    test_GUI.cpp
+set(KERNEL_SOURCES
+    ${CMAKE_SOURCE_DIR}/src/models/ProcessState.cpp
+    ${CMAKE_SOURCE_DIR}/src/kernel/ProcessManager.cpp
+    ${CMAKE_SOURCE_DIR}/src/kernel/Scheduler.cpp
+    ${CMAKE_SOURCE_DIR}/src/kernel/MemoryManager.cpp
+    ${CMAKE_SOURCE_DIR}/src/kernel/SyncManager.cpp
+    ${CMAKE_SOURCE_DIR}/src/kernel/MetricsCollector.cpp
+    ${CMAKE_SOURCE_DIR}/src/utils/InputValidator.cpp
+    ${CMAKE_SOURCE_DIR}/src/controllers/ConfigurationManager.cpp
 )
 
-# Create test executable
-add_executable(MiniOSTests ${TEST_SOURCES})
+add_executable(MiniOSIntegrationTests test_integration.cpp ${KERNEL_SOURCES})
+target_include_directories(MiniOSIntegrationTests PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(MiniOSIntegrationTests Qt6::Core Qt6::Widgets)
 
-# Link libraries
-target_link_libraries(MiniOSTests 
-    Qt6::Core 
-    Qt6::Widgets 
-    Qt6::Test
-)
-
-# Include source directories for testing
-target_include_directories(MiniOSTests PRIVATE 
-    ${CMAKE_SOURCE_DIR}/src
-    ${CMAKE_SOURCE_DIR}/include
-)
-
-# Add test
-add_test(NAME MiniOSKernelSimulatorTests COMMAND MiniOSTests)
+add_test(NAME IntegrationTests COMMAND MiniOSIntegrationTests)
