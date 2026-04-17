@@ -103,8 +103,8 @@ int MemoryManager::handlePageFault(int process_id, int virtual_page) {
         PageFrame& victim_frame = page_frames_[frame_id];
         if (victim_frame.is_allocated) {
             updatePageTableEntry(victim_frame.process_id, victim_frame.page_number, -1, false);
-            page_replacement_count_++;
         }
+        page_replacement_count_++;
     }
     
     // Allocate the frame to the new page

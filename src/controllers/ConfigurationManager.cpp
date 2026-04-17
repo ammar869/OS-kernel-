@@ -223,8 +223,11 @@ bool ConfigurationManager::configurationFromJson(const std::string& json_string,
                     current_process.arrival_time = std::stoi(value);
                 } else if (key == "memory_requirement") {
                     current_process.memory_requirement = std::stoi(value);
-                    config.processes.push_back(current_process);
-                    current_process = ProcessConfig(); // Reset for next process
+                    // Only push when we have a complete process (all 4 fields)
+                    if (current_process.burst_time > 0) {
+                        config.processes.push_back(current_process);
+                        current_process = ProcessConfig(); // Reset for next process
+                    }
                 }
             } else {
                 // Main configuration
