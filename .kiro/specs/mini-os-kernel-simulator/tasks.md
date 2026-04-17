@@ -291,7 +291,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - _Requirements: 9.1, 9.2, 9.3_
 
 - [ ] 15. Metrics Panel Implementation
-  - [-] 15.1 Implement MetricsPanelWidget class
+  - [x] 15.1 Implement MetricsPanelWidget class
     - Create formatted display for all performance metrics
     - Add real-time updates during simulation
     - Implement proper number formatting and units
@@ -314,7 +314,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
   - Ensure all GUI components display correctly and respond to user input, verify real-time updates work properly, ask the user if questions arise.
 
 - [ ] 17. GUI-Controller Integration
-  - [ ] 17.1 Implement GUIController class
+  - [x] 17.1 Implement GUIController class
     - Create controller to manage GUI-simulation interactions
     - Implement real-time GUI updates during simulation
     - Add event handling for user interactions
@@ -324,14 +324,14 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 17: GUI Real-time Updates**
     - **Validates: Requirements 6.5, 7.3, 7.6, 8.6, 9.6, 10.6**
 
-  - [ ] 17.3 Connect all GUI components to simulation engine
+  - [x] 17.3 Connect all GUI components to simulation engine
     - Wire Dashboard controls to SimulationController
     - Connect all display widgets to receive real-time updates
     - Implement proper signal/slot connections throughout the system
     - _Requirements: 6.5, 7.3, 8.6, 9.6, 10.6_
 
 - [ ] 18. Export Functionality
-  - [ ] 18.1 Implement ExportController class
+  - [x] 18.1 Implement ExportController class
     - Create export functionality for Gantt charts as images
     - Implement CSV export for performance metrics
     - Add text file export for simulation logs
@@ -345,13 +345,13 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 30: Export Error Handling**
     - **Validates: Requirements 13.6**
 
-  - [ ] 18.4 Add export dialogs and user interface
+  - [-] 18.4 Add export dialogs and user interface
     - Create file selection dialogs for export operations
     - Add export progress indicators and error reporting
     - _Requirements: 13.5, 13.6_
 
 - [ ] 19. Error Handling and System Stability
-  - [ ] 19.1 Implement comprehensive error handling system
+  - [-] 19.1 Implement comprehensive error handling system
     - Add error handling for resource exhaustion scenarios
     - Implement graceful degradation for system failures
     - Create user-friendly error reporting and logging
