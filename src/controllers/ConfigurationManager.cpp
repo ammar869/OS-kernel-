@@ -5,99 +5,111 @@
 #include <iomanip>
 
 bool ConfigurationManager::saveConfiguration(const SimulationConfig& config, const std::string& filename) {
-    // Validate configuration first
-    ValidationResult validation = validateConfiguration(config);
-    if (!validation.is_valid) {
+    if (!validateConfiguration(config)) {
         return false;
     }
     
-    std::string json_content = configurationToJson(config);
-    return writeFile(filename, json_content);
+    try {
+        std::string json_content = configurationToJson(config);
+        
+        std::ofstream file(filename);
+        if (!file.is_open()) {
+            setError("Failed to open file for writing: " + filename);
+            return false;
+        }
+        
+        file << json_content;
+        file.close();
+        
+        if (file.fail()) {
+            setError("Failed to write to file: " + filename);
+            return false;
+        }
+        
+        return true;
+    }
+    catch (const std::exception& e) {
+        setError("Exception while saving configuration: " + std::string(e.what()));
+        return false;
+    }
 }
 
 bool ConfigurationManager::loadConfiguration(const std::string& filename, SimulationConfig& config) {
-    std::string json_content = readFile(filename);
-    if (json_content.empty()) {
+    try {
+        std::ifstream file(filename);
+        if (!file.is_open()) {
+            setError("Failed to open file for reading: " + filename);
+            return false;
+        }
+        
+        std::stringstream buffer;
+        buffer << file.rdbuf();
+        file.close();
+        
+        std::string json_content = buffer.str();
+        
+        if (!configurationFromJson(json_content, config)) {
+            return false;
+        }
+        
+        if (!validateConfiguration(config)) {
+            return false;
+        }
+        
+        return true;
+    }
+    catch (const std::exception& e) {
+        setError("Exception while loading configuration: " + std::string(e.what()));
+        return false;
+    }
+}
+
+bool ConfigurationManager::validateConfiguration(const SimulationConfig& config) {
+    // Validate simulation speed
+    auto speed_result = InputValidator::validateSimulationSpeed(config.simulation_speed);
+    if (!speed_result.is_valid) {
+        setError("Invalid simulation speed: " + speed_result.error_message);
         return false;
     }
     
-    return configurationFromJson(json_content, config);
-}
-
-ValidationResult ConfigurationManager::validateConfiguration(const SimulationConfig& config) {
     // Validate time quantum
     if (config.scheduling_algo == SchedulingAlgorithm::ROUND_ROBIN) {
-        ValidationResult quantum_result = InputValidator::validateTimeQuantum(config.time_quantum);
+        auto quantum_result = InputValidator::validateTimeQuantum(config.time_quantum);
         if (!quantum_result.is_valid) {
-            return quantum_result;
+            setError("Invalid time quantum: " + quantum_result.error_message);
+            return false;
         }
-    }
-    
-    // Validate simulation speed
-    ValidationResult speed_result = InputValidator::validateSimulationSpeed(config.simulation_speed);
-    if (!speed_result.is_valid) {
-        return speed_result;
     }
     
     // Validate memory configuration
-    ValidationResult memory_result = InputValidator::validateMemoryConfiguration(
-        config.memory_config.total_memory_size, config.memory_config.page_size);
+    auto memory_result = InputValidator::validateMemoryConfiguration(
+        config.memory_config.total_memory_size,
+        config.memory_config.page_size
+    );
     if (!memory_result.is_valid) {
-        return memory_result;
+        setError("Invalid memory configuration: " + memory_result.error_message);
+        return false;
     }
     
     // Validate process count
-    ValidationResult count_result = InputValidator::validateProcessCount(static_cast<int>(config.processes.size()));
+    auto count_result = InputValidator::validateProcessCount(static_cast<int>(config.processes.size()));
     if (!count_result.is_valid) {
-        return count_result;
+        setError("Invalid process count: " + count_result.error_message);
+        return false;
     }
     
-    // Validate individual processes
+    // Validate each process
     for (const auto& process : config.processes) {
-        ValidationResult process_result = InputValidator::validateProcessParameters(
-            process.priority, process.burst_time, process.arrival_time);
+        auto process_result = InputValidator::validateProcessParameters(
+            process.priority, process.burst_time, process.arrival_time
+        );
         if (!process_result.is_valid) {
-            return ValidationResult(false, "Process validation failed: " + process_result.error_message);
+            setError("Invalid process parameters: " + process_result.error_message);
+            return false;
         }
     }
     
-    return ValidationResult(true);
-}
-
-SimulationConfig ConfigurationManager::getDefaultConfiguration() {
-    SimulationConfig config;
-    
-    // Default scheduling
-    config.scheduling_algo = SchedulingAlgorithm::FCFS;
-    config.time_quantum = 4;
-    
-    // Default memory configuration
-    config.memory_config = MemoryConfiguration(256, 32, ReplacementAlgorithm::LRU);
-    
-    // Default simulation settings
-    config.simulation_speed = 1;
-    config.step_mode = false;
-    
-    // No processes by default
-    config.processes.clear();
-    
-    return config;
-}
-
-SimulationConfig ConfigurationManager::createSampleConfiguration() {
-    SimulationConfig config = getDefaultConfiguration();
-    
-    // Add sample processes
-    config.processes.push_back(ProcessConfig(5, 10, 0, 2));  // P1: priority=5, burst=10, arrival=0, memory=2
-    config.processes.push_back(ProcessConfig(3, 8, 2, 1));   // P2: priority=3, burst=8, arrival=2, memory=1
-    config.processes.push_back(ProcessConfig(7, 6, 4, 3));   // P3: priority=7, burst=6, arrival=4, memory=3
-    config.processes.push_back(ProcessConfig(2, 12, 6, 2));  // P4: priority=2, burst=12, arrival=6, memory=2
-    
-    // Use Round Robin scheduling
-    config.scheduling_algo = SchedulingAlgorithm::ROUND_ROBIN;
-    config.time_quantum = 4;
-    
-    return config;
+    return true;
 }
 
 std::string ConfigurationManager::configurationToJson(const SimulationConfig& config) {
@@ -106,22 +118,20 @@ std::string ConfigurationManager::configurationToJson(const SimulationConfig& co
     
     json << "{\n";
     json << "  \"version\": \"1.0\",\n";
-    json << "  \"scheduling\": {\n";
-    json << "    \"algorithm\": \"" << schedulingAlgorithmToString(config.scheduling_algo) << "\",\n";
-    json << "    \"time_quantum\": " << config.time_quantum << "\n";
-    json << "  },\n";
+    json << "  \"timestamp\": \"" << std::time(nullptr) << "\",\n";
+    json << "  \"scheduling_algorithm\": \"" << schedulingAlgorithmToString(config.scheduling_algo) << "\",\n";
+    json << "  \"time_quantum\": " << config.time_quantum << ",\n";
+    json << "  \"simulation_speed\": " << config.simulation_speed << ",\n";
+    json << "  \"step_mode\": " << (config.step_mode ? "true" : "false") << ",\n";
     
-    json << "  \"memory\": {\n";
-    json << "    \"total_size\": " << config.memory_config.total_memory_size << ",\n";
+    // Memory configuration
+    json << "  \"memory_config\": {\n";
+    json << "    \"total_memory_size\": " << config.memory_config.total_memory_size << ",\n";
     json << "    \"page_size\": " << config.memory_config.page_size << ",\n";
     json << "    \"replacement_algorithm\": \"" << replacementAlgorithmToString(config.memory_config.replacement_algo) << "\"\n";
     json << "  },\n";
     
-    json << "  \"simulation\": {\n";
-    json << "    \"speed\": " << config.simulation_speed << ",\n";
-    json << "    \"step_mode\": " << (config.step_mode ? "true" : "false") << "\n";
-    json << "  },\n";
-    
+    // Processes
     json << "  \"processes\": [\n";
     for (size_t i = 0; i < config.processes.size(); ++i) {
         const auto& process = config.processes[i];
@@ -143,153 +153,122 @@ std::string ConfigurationManager::configurationToJson(const SimulationConfig& co
 }
 
 bool ConfigurationManager::configurationFromJson(const std::string& json_string, SimulationConfig& config) {
-    // This is a simplified JSON parser for our specific format
-    // In a production system, you'd use a proper JSON library like nlohmann/json
+    // Simple JSON parsing (in a real implementation, you'd use a JSON library like nlohmann/json)
+    // This is a simplified parser for demonstration
     
-    config = getDefaultConfiguration();
-    
-    // Parse scheduling algorithm
-    size_t algo_pos = json_string.find("\"algorithm\":");
-    if (algo_pos != std::string::npos) {
-        size_t start = json_string.find("\"", algo_pos + 12);
-        size_t end = json_string.find("\"", start + 1);
-        if (start != std::string::npos && end != std::string::npos) {
-            std::string algo_str = json_string.substr(start + 1, end - start - 1);
-            config.scheduling_algo = schedulingAlgorithmFromString(algo_str);
-        }
-    }
-    
-    // Parse time quantum
-    size_t quantum_pos = json_string.find("\"time_quantum\":");
-    if (quantum_pos != std::string::npos) {
-        size_t start = quantum_pos + 15;
-        size_t end = json_string.find_first_of(",\n}", start);
-        if (end != std::string::npos) {
-            std::string quantum_str = json_string.substr(start, end - start);
-            config.time_quantum = std::stoi(quantum_str);
-        }
-    }
-    
-    // Parse memory configuration
-    size_t total_size_pos = json_string.find("\"total_size\":");
-    if (total_size_pos != std::string::npos) {
-        size_t start = total_size_pos + 13;
-        size_t end = json_string.find_first_of(",\n}", start);
-        if (end != std::string::npos) {
-            std::string size_str = json_string.substr(start, end - start);
-            config.memory_config.total_memory_size = std::stoi(size_str);
-        }
-    }
-    
-    size_t page_size_pos = json_string.find("\"page_size\":");
-    if (page_size_pos != std::string::npos) {
-        size_t start = page_size_pos + 12;
-        size_t end = json_string.find_first_of(",\n}", start);
-        if (end != std::string::npos) {
-            std::string size_str = json_string.substr(start, end - start);
-            config.memory_config.page_size = std::stoi(size_str);
-            config.memory_config.num_frames = config.memory_config.total_memory_size / config.memory_config.page_size;
-        }
-    }
-    
-    // Parse replacement algorithm
-    size_t repl_pos = json_string.find("\"replacement_algorithm\":");
-    if (repl_pos != std::string::npos) {
-        size_t start = json_string.find("\"", repl_pos + 24);
-        size_t end = json_string.find("\"", start + 1);
-        if (start != std::string::npos && end != std::string::npos) {
-            std::string repl_str = json_string.substr(start + 1, end - start - 1);
-            config.memory_config.replacement_algo = replacementAlgorithmFromString(repl_str);
-        }
-    }
-    
-    // Parse simulation speed
-    size_t speed_pos = json_string.find("\"speed\":");
-    if (speed_pos != std::string::npos) {
-        size_t start = speed_pos + 8;
-        size_t end = json_string.find_first_of(",\n}", start);
-        if (end != std::string::npos) {
-            std::string speed_str = json_string.substr(start, end - start);
-            config.simulation_speed = std::stoi(speed_str);
-        }
-    }
-    
-    // Parse step mode
-    size_t step_pos = json_string.find("\"step_mode\":");
-    if (step_pos != std::string::npos) {
-        size_t start = step_pos + 12;
-        size_t end = json_string.find_first_of(",\n}", start);
-        if (end != std::string::npos) {
-            std::string step_str = json_string.substr(start, end - start);
-            config.step_mode = (step_str.find("true") != std::string::npos);
-        }
-    }
-    
-    // Parse processes (simplified - would need more robust parsing for production)
-    config.processes.clear();
-    size_t processes_start = json_string.find("\"processes\": [");
-    if (processes_start != std::string::npos) {
-        size_t processes_end = json_string.find("]", processes_start);
-        if (processes_end != std::string::npos) {
-            std::string processes_section = json_string.substr(processes_start, processes_end - processes_start);
+    try {
+        // Reset configuration to defaults
+        config = createDefaultConfiguration();
+        
+        // Parse key-value pairs (simplified parsing)
+        std::istringstream stream(json_string);
+        std::string line;
+        
+        bool in_memory_config = false;
+        bool in_processes = false;
+        ProcessConfig current_process;
+        
+        while (std::getline(stream, line)) {
+            // Remove whitespace and quotes
+            size_t start = line.find_first_not_of(" \t\"");
+            if (start == std::string::npos) continue;
             
-            // Count process objects
-            size_t pos = 0;
-            while ((pos = processes_section.find("{", pos)) != std::string::npos) {
-                size_t obj_end = processes_section.find("}", pos);
-                if (obj_end != std::string::npos) {
-                    std::string process_obj = processes_section.substr(pos, obj_end - pos + 1);
-                    
-                    ProcessConfig process;
-                    
-                    // Parse priority
-                    size_t prio_pos = process_obj.find("\"priority\":");
-                    if (prio_pos != std::string::npos) {
-                        size_t start = prio_pos + 11;
-                        size_t end = process_obj.find_first_of(",\n}", start);
-                        if (end != std::string::npos) {
-                            process.priority = std::stoi(process_obj.substr(start, end - start));
-                        }
-                    }
-                    
-                    // Parse burst time
-                    size_t burst_pos = process_obj.find("\"burst_time\":");
-                    if (burst_pos != std::string::npos) {
-                        size_t start = burst_pos + 13;
-                        size_t end = process_obj.find_first_of(",\n}", start);
-                        if (end != std::string::npos) {
-                            process.burst_time = std::stoi(process_obj.substr(start, end - start));
-                        }
-                    }
-                    
-                    // Parse arrival time
-                    size_t arrival_pos = process_obj.find("\"arrival_time\":");
-                    if (arrival_pos != std::string::npos) {
-                        size_t start = arrival_pos + 15;
-                        size_t end = process_obj.find_first_of(",\n}", start);
-                        if (end != std::string::npos) {
-                            process.arrival_time = std::stoi(process_obj.substr(start, end - start));
-                        }
-                    }
-                    
-                    // Parse memory requirement
-                    size_t mem_pos = process_obj.find("\"memory_requirement\":");
-                    if (mem_pos != std::string::npos) {
-                        size_t start = mem_pos + 21;
-                        size_t end = process_obj.find_first_of(",\n}", start);
-                        if (end != std::string::npos) {
-                            process.memory_requirement = std::stoi(process_obj.substr(start, end - start));
-                        }
-                    }
-                    
-                    config.processes.push_back(process);
+            line = line.substr(start);
+            
+            if (line.find("memory_config") != std::string::npos) {
+                in_memory_config = true;
+                continue;
+            } else if (line.find("processes") != std::string::npos) {
+                in_processes = true;
+                continue;
+            } else if (line.find("}") != std::string::npos) {
+                if (in_memory_config) {
+                    in_memory_config = false;
+                } else if (in_processes) {
+                    in_processes = false;
                 }
-                pos = obj_end + 1;
+                continue;
+            }
+            
+            // Parse key-value pairs
+            size_t colon_pos = line.find(':');
+            if (colon_pos == std::string::npos) continue;
+            
+            std::string key = line.substr(0, colon_pos);
+            std::string value = line.substr(colon_pos + 1);
+            
+            // Remove quotes and whitespace
+            key.erase(0, key.find_first_not_of(" \t\""));
+            key.erase(key.find_last_not_of(" \t\",") + 1);
+            
+            value.erase(0, value.find_first_not_of(" \t\""));
+            value.erase(value.find_last_not_of(" \t\",") + 1);
+            
+            // Parse values based on context
+            if (in_memory_config) {
+                if (key == "total_memory_size") {
+                    config.memory_config.total_memory_size = std::stoi(value);
+                } else if (key == "page_size") {
+                    config.memory_config.page_size = std::stoi(value);
+                    config.memory_config.num_frames = config.memory_config.total_memory_size / config.memory_config.page_size;
+                } else if (key == "replacement_algorithm") {
+                    config.memory_config.replacement_algo = stringToReplacementAlgorithm(value);
+                }
+            } else if (in_processes) {
+                if (key == "priority") {
+                    current_process.priority = std::stoi(value);
+                } else if (key == "burst_time") {
+                    current_process.burst_time = std::stoi(value);
+                } else if (key == "arrival_time") {
+                    current_process.arrival_time = std::stoi(value);
+                } else if (key == "memory_requirement") {
+                    current_process.memory_requirement = std::stoi(value);
+                    config.processes.push_back(current_process);
+                    current_process = ProcessConfig(); // Reset for next process
+                }
+            } else {
+                // Main configuration
+                if (key == "scheduling_algorithm") {
+                    config.scheduling_algo = stringToSchedulingAlgorithm(value);
+                } else if (key == "time_quantum") {
+                    config.time_quantum = std::stoi(value);
+                } else if (key == "simulation_speed") {
+                    config.simulation_speed = std::stoi(value);
+                } else if (key == "step_mode") {
+                    config.step_mode = (value == "true");
+                }
             }
         }
+        
+        return true;
     }
+    catch (const std::exception& e) {
+        setError("JSON parsing error: " + std::string(e.what()));
+        return false;
+    }
+}
+
+SimulationConfig ConfigurationManager::createDefaultConfiguration() {
+    SimulationConfig config;
     
-    return validateConfiguration(config).is_valid;
+    // Default scheduling
+    config.scheduling_algo = SchedulingAlgorithm::FCFS;
+    config.time_quantum = 4;
+    
+    // Default memory configuration
+    config.memory_config = MemoryConfiguration(256, 32, ReplacementAlgorithm::LRU);
+    
+    // Default simulation settings
+    config.simulation_speed = 1;
+    config.step_mode = false;
+    
+    // Default processes
+    config.processes.clear();
+    config.processes.emplace_back(5, 10, 0, 2);  // Priority 5, burst 10, arrival 0, memory 2
+    config.processes.emplace_back(3, 8, 2, 1);   // Priority 3, burst 8, arrival 2, memory 1
+    config.processes.emplace_back(7, 6, 4, 3);   // Priority 7, burst 6, arrival 4, memory 3
+    
+    return config;
 }
 
 std::string ConfigurationManager::schedulingAlgorithmToString(SchedulingAlgorithm algorithm) {
@@ -297,18 +276,18 @@ std::string ConfigurationManager::schedulingAlgorithmToString(SchedulingAlgorith
         case SchedulingAlgorithm::FCFS:
             return "FCFS";
         case SchedulingAlgorithm::ROUND_ROBIN:
-            return "RoundRobin";
+            return "ROUND_ROBIN";
         case SchedulingAlgorithm::PRIORITY:
-            return "Priority";
+            return "PRIORITY";
         default:
             return "FCFS";
     }
 }
 
-SchedulingAlgorithm ConfigurationManager::schedulingAlgorithmFromString(const std::string& str) {
-    if (str == "RoundRobin") {
+SchedulingAlgorithm ConfigurationManager::stringToSchedulingAlgorithm(const std::string& str) {
+    if (str == "ROUND_ROBIN") {
         return SchedulingAlgorithm::ROUND_ROBIN;
-    } else if (str == "Priority") {
+    } else if (str == "PRIORITY") {
         return SchedulingAlgorithm::PRIORITY;
     } else {
         return SchedulingAlgorithm::FCFS;
@@ -326,7 +305,7 @@ std::string ConfigurationManager::replacementAlgorithmToString(ReplacementAlgori
     }
 }
 
-ReplacementAlgorithm ConfigurationManager::replacementAlgorithmFromString(const std::string& str) {
+ReplacementAlgorithm ConfigurationManager::stringToReplacementAlgorithm(const std::string& str) {
     if (str == "FIFO") {
         return ReplacementAlgorithm::FIFO;
     } else {
@@ -334,23 +313,6 @@ ReplacementAlgorithm ConfigurationManager::replacementAlgorithmFromString(const 
     }
 }
 
-std::string ConfigurationManager::readFile(const std::string& filename) {
-    std::ifstream file(filename);
-    if (!file.is_open()) {
-        return "";
-    }
-    
-    std::ostringstream content;
-    content << file.rdbuf();
-    return content.str();
-}
-
-bool ConfigurationManager::writeFile(const std::string& filename, const std::string& content) {
-    std::ofstream file(filename);
-    if (!file.is_open()) {
-        return false;
-    }
-    
-    file << content;
-    return file.good();
+void ConfigurationManager::setError(const std::string& error) {
+    last_error_ = error;
 }

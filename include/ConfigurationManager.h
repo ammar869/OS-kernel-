@@ -2,7 +2,7 @@
 
 #include "SimulationConfig.h"
 #include <string>
-#include <vector>
+#include <memory>
 
 /**
  * @brief Manages simulation configuration save/load operations
@@ -13,96 +13,99 @@
 class ConfigurationManager {
 public:
     /**
+     * @brief Constructor
+     */
+    ConfigurationManager() = default;
+    
+    /**
+     * @brief Destructor
+     */
+    ~ConfigurationManager() = default;
+    
+    /**
      * @brief Save configuration to file
      * @param config Configuration to save
      * @param filename File path to save to
-     * @return true if saved successfully
+     * @return true if save successful
      */
-    static bool saveConfiguration(const SimulationConfig& config, const std::string& filename);
+    bool saveConfiguration(const SimulationConfig& config, const std::string& filename);
     
     /**
      * @brief Load configuration from file
      * @param filename File path to load from
      * @param config Configuration object to populate
-     * @return true if loaded successfully
+     * @return true if load successful
      */
-    static bool loadConfiguration(const std::string& filename, SimulationConfig& config);
+    bool loadConfiguration(const std::string& filename, SimulationConfig& config);
     
     /**
      * @brief Validate configuration parameters
      * @param config Configuration to validate
-     * @return Validation result with error message if invalid
+     * @return true if configuration is valid
      */
-    static ValidationResult validateConfiguration(const SimulationConfig& config);
+    bool validateConfiguration(const SimulationConfig& config);
     
     /**
-     * @brief Get default configuration
-     * @return Default simulation configuration
+     * @brief Get last error message
+     * @return Error message from last operation
      */
-    static SimulationConfig getDefaultConfiguration();
-    
-    /**
-     * @brief Create sample configuration with predefined processes
-     * @return Sample configuration for demonstration
-     */
-    static SimulationConfig createSampleConfiguration();
+    const std::string& getLastError() const { return last_error_; }
     
     /**
      * @brief Convert configuration to JSON string
      * @param config Configuration to convert
      * @return JSON string representation
      */
-    static std::string configurationToJson(const SimulationConfig& config);
+    std::string configurationToJson(const SimulationConfig& config);
     
     /**
      * @brief Parse configuration from JSON string
      * @param json_string JSON string to parse
      * @param config Configuration object to populate
-     * @return true if parsed successfully
+     * @return true if parsing successful
      */
-    static bool configurationFromJson(const std::string& json_string, SimulationConfig& config);
+    bool configurationFromJson(const std::string& json_string, SimulationConfig& config);
+    
+    /**
+     * @brief Create default configuration
+     * @return Default simulation configuration
+     */
+    static SimulationConfig createDefaultConfiguration();
 
 private:
+    std::string last_error_;
+    
     /**
-     * @brief Convert scheduling algorithm to string
+     * @brief Convert scheduling algorithm enum to string
      * @param algorithm Scheduling algorithm
      * @return String representation
      */
-    static std::string schedulingAlgorithmToString(SchedulingAlgorithm algorithm);
+    std::string schedulingAlgorithmToString(SchedulingAlgorithm algorithm);
     
     /**
-     * @brief Parse scheduling algorithm from string
+     * @brief Convert string to scheduling algorithm enum
      * @param str String representation
-     * @return Scheduling algorithm
+     * @return Scheduling algorithm enum
      */
-    static SchedulingAlgorithm schedulingAlgorithmFromString(const std::string& str);
+    SchedulingAlgorithm stringToSchedulingAlgorithm(const std::string& str);
     
     /**
-     * @brief Convert replacement algorithm to string
+     * @brief Convert replacement algorithm enum to string
      * @param algorithm Replacement algorithm
      * @return String representation
      */
-    static std::string replacementAlgorithmToString(ReplacementAlgorithm algorithm);
+    std::string replacementAlgorithmToString(ReplacementAlgorithm algorithm);
     
     /**
-     * @brief Parse replacement algorithm from string
+     * @brief Convert string to replacement algorithm enum
      * @param str String representation
-     * @return Replacement algorithm
+     * @return Replacement algorithm enum
      */
-    static ReplacementAlgorithm replacementAlgorithmFromString(const std::string& str);
+    ReplacementAlgorithm stringToReplacementAlgorithm(const std::string& str);
     
     /**
-     * @brief Read file contents
-     * @param filename File to read
-     * @return File contents as string, empty if failed
+     * @brief Set error message
+     * @param error Error message
      */
-    static std::string readFile(const std::string& filename);
-    
-    /**
-     * @brief Write string to file
-     * @param filename File to write to
-     * @param content Content to write
-     * @return true if written successfully
-     */
-    static bool writeFile(const std::string& filename, const std::string& content);
+    void setError(const std::string& error);
 };

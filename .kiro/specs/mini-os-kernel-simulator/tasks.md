@@ -263,7 +263,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 20: Gantt Chart Visualization**
     - **Validates: Requirements 8.1, 8.2, 8.3, 8.5, 8.7**
 
-  - [ ] 13.3 Add Gantt chart navigation and zoom features
+  - [x] 13.3 Add Gantt chart navigation and zoom features
     - Implement horizontal scrolling for long simulations
     - Add zoom in/out functionality
     - Create time scale display and navigation controls
@@ -275,7 +275,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - _Requirements: 8.6, 8.7_
 
 - [ ] 14. Memory View Implementation
-  - [-] 14.1 Implement MemoryViewWidget class
+  - [x] 14.1 Implement MemoryViewWidget class
     - Create visual grid for page frame display
     - Add allocation status and process ownership visualization
     - Implement page table display for selected processes
@@ -291,7 +291,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - _Requirements: 9.1, 9.2, 9.3_
 
 - [ ] 15. Metrics Panel Implementation
-  - [ ] 15.1 Implement MetricsPanelWidget class
+  - [-] 15.1 Implement MetricsPanelWidget class
     - Create formatted display for all performance metrics
     - Add real-time updates during simulation
     - Implement proper number formatting and units

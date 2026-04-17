@@ -58,7 +58,7 @@ The Mini OS Kernel Simulator is a C++ educational software system that simulates
 
 1. THE Memory_Manager SHALL implement a paging system with fixed-size page frames
 2. THE Memory_Manager SHALL maintain a page table for virtual-to-physical address translation
-3. WHEN a process requests memory, THE Memory_Manager SHALL allocate available page frames
+3. WHEN a process requests memory, THE Memory_Manager SHALL allocate available page framesA
 4. IF no free frames are available, THEN THE Memory_Manager SHALL apply page replacement algorithm
 5. THE Memory_Manager SHALL implement First-In-First-Out (FIFO) page replacement algorithm
 6. THE Memory_Manager SHALL implement Least Recently Used (LRU) page replacement algorithm

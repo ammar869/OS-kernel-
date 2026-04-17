@@ -10,13 +10,13 @@
 #include <mutex>
 #include <atomic>
 #include <thread>
-#include <condition_variable>
+#include <chrono>
 
 /**
- * @brief Controls the simulation execution and coordinates all kernel components
+ * @brief Controls the simulation execution and timing
  * 
- * The SimulationController orchestrates the simulation by managing time steps,
- * coordinating between different kernel components, and maintaining simulation state.
+ * The SimulationController orchestrates all kernel components and manages
+ * the discrete time step execution of the simulation.
  */
 class SimulationController {
 public:
@@ -38,60 +38,43 @@ public:
     ~SimulationController();
     
     /**
+     * @brief Initialize simulation with configuration
+     * @param config Simulation configuration
+     * @return true if initialization successful
+     */
+    bool initialize(const SimulationConfig& config);
+    
+    /**
      * @brief Start the simulation
      * @return true if started successfully
      */
-    bool startSimulation();
+    bool start();
     
     /**
      * @brief Pause the simulation
      */
-    void pauseSimulation();
+    void pause();
     
     /**
      * @brief Resume the simulation
      */
-    void resumeSimulation();
+    void resume();
     
     /**
      * @brief Stop the simulation
      */
-    void stopSimulation();
+    void stop();
     
     /**
      * @brief Reset the simulation to initial state
      */
-    void resetSimulation();
+    void reset();
     
     /**
-     * @brief Execute a single time step
+     * @brief Execute a single time step (for step mode)
      * @return true if step executed successfully
      */
     bool executeStep();
-    
-    /**
-     * @brief Set simulation configuration
-     * @param config Simulation configuration
-     */
-    void setConfiguration(const SimulationConfig& config);
-    
-    /**
-     * @brief Get current simulation configuration
-     * @return Current configuration
-     */
-    const SimulationConfig& getConfiguration() const { return config_; }
-    
-    /**
-     * @brief Get current simulation state
-     * @return Current state
-     */
-    SimulationState getState() const { return state_; }
-    
-    /**
-     * @brief Get current simulation time
-     * @return Current time
-     */
-    int getCurrentTime() const { return current_time_; }
     
     /**
      * @brief Set simulation speed
@@ -100,108 +83,106 @@ public:
     void setSimulationSpeed(int steps_per_second);
     
     /**
-     * @brief Get simulation speed
-     * @return Steps per second
-     */
-    int getSimulationSpeed() const { return simulation_speed_; }
-    
-    /**
      * @brief Enable/disable step mode
      * @param enabled Whether step mode is enabled
      */
     void setStepMode(bool enabled);
     
     /**
-     * @brief Check if step mode is enabled
-     * @return true if in step mode
+     * @brief Get current simulation state
+     * @return Current state
      */
-    bool isStepMode() const { return step_mode_; }
+    SimulationState getState() const;
+    
+    /**
+     * @brief Get current simulation time
+     * @return Current time
+     */
+    int getCurrentTime() const;
+    
+    /**
+     * @brief Get simulation configuration
+     * @return Current configuration
+     */
+    const SimulationConfig& getConfiguration() const;
     
     /**
      * @brief Get process manager
-     * @return Reference to process manager
+     * @return Pointer to process manager
      */
-    ProcessManager& getProcessManager() { return *process_manager_; }
+    ProcessManager* getProcessManager() { return process_manager_.get(); }
     
     /**
      * @brief Get memory manager
-     * @return Reference to memory manager
+     * @return Pointer to memory manager
      */
-    MemoryManager& getMemoryManager() { return *memory_manager_; }
+    MemoryManager* getMemoryManager() { return memory_manager_.get(); }
     
     /**
-     * @brief Get synchronization manager
-     * @return Reference to sync manager
+     * @brief Get sync manager
+     * @return Pointer to sync manager
      */
-    SyncManager& getSyncManager() { return *sync_manager_; }
+    SyncManager* getSyncManager() { return sync_manager_.get(); }
     
     /**
      * @brief Get metrics collector
-     * @return Reference to metrics collector
+     * @return Pointer to metrics collector
      */
-    MetricsCollector& getMetricsCollector() { return *metrics_collector_; }
+    MetricsCollector* getMetricsCollector() { return metrics_collector_.get(); }
     
     /**
-     * @brief Get current system metrics
-     * @return System metrics
+     * @brief Get current scheduler
+     * @return Pointer to current scheduler
      */
-    SystemMetrics getSystemMetrics() const;
+    Scheduler* getCurrentScheduler() { return current_scheduler_.get(); }
+    
+    /**
+     * @brief Change scheduling algorithm
+     * @param algorithm New scheduling algorithm
+     * @param time_quantum Time quantum for Round Robin (ignored for others)
+     */
+    void setSchedulingAlgorithm(SchedulingAlgorithm algorithm, int time_quantum = 4);
     
     /**
      * @brief Add a process to the simulation
-     * @param priority Process priority
-     * @param burst_time CPU burst time
-     * @param arrival_time Arrival time
-     * @param memory_pages Memory pages required
-     * @return Process ID, or -1 if creation failed
+     * @param config Process configuration
+     * @return Process ID, or -1 if failed
      */
-    int addProcess(int priority, int burst_time, int arrival_time, int memory_pages = 1);
+    int addProcess(const ProcessConfig& config);
     
     /**
-     * @brief Set scheduling algorithm
-     * @param algorithm Scheduling algorithm to use
+     * @brief Get all processes
+     * @return Vector of all process control blocks
      */
-    void setSchedulingAlgorithm(SchedulingAlgorithm algorithm);
+    std::vector<ProcessControlBlock*> getAllProcesses();
     
     /**
-     * @brief Set time quantum for Round Robin
-     * @param quantum Time quantum
+     * @brief Get system metrics
+     * @return Current system metrics
      */
-    void setTimeQuantum(int quantum);
-    
-    /**
-     * @brief Set memory replacement algorithm
-     * @param algorithm Memory replacement algorithm
-     */
-    void setMemoryReplacementAlgorithm(ReplacementAlgorithm algorithm);
+    SystemMetrics getSystemMetrics();
 
 private:
     // Core components
     std::unique_ptr<ProcessManager> process_manager_;
-    std::unique_ptr<Scheduler> scheduler_;
     std::unique_ptr<MemoryManager> memory_manager_;
     std::unique_ptr<SyncManager> sync_manager_;
     std::unique_ptr<MetricsCollector> metrics_collector_;
+    std::unique_ptr<Scheduler> current_scheduler_;
     
     // Simulation state
     std::atomic<SimulationState> state_;
-    std::atomic<int> current_time_;
-    std::atomic<int> simulation_speed_;
-    std::atomic<bool> step_mode_;
-    
-    // Configuration
     SimulationConfig config_;
-    mutable std::mutex config_mutex_;
+    int current_time_;
+    int current_running_process_;
+    int time_quantum_remaining_;
     
     // Threading
     std::unique_ptr<std::thread> simulation_thread_;
     std::mutex simulation_mutex_;
-    std::condition_variable simulation_cv_;
     std::atomic<bool> should_stop_;
-    
-    // Current running process
-    int current_running_process_;
-    int current_process_remaining_quantum_;
+    std::atomic<int> simulation_speed_;
+    std::atomic<bool> step_mode_;
     
     /**
      * @brief Main simulation loop
@@ -209,46 +190,58 @@ private:
     void simulationLoop();
     
     /**
-     * @brief Process arrivals for current time
+     * @brief Execute one time step of simulation
+     * @return true if simulation should continue
      */
-    void processArrivals();
+    bool executeTimeStep();
     
     /**
-     * @brief Schedule next process
+     * @brief Handle process arrivals at current time
      */
-    void scheduleProcess();
+    void handleProcessArrivals();
     
     /**
-     * @brief Execute current process
+     * @brief Handle CPU scheduling
      */
-    void executeCurrentProcess();
+    void handleCPUScheduling();
     
     /**
-     * @brief Handle process completion
-     * @param pid Process ID that completed
+     * @brief Handle process execution
      */
-    void handleProcessCompletion(int pid);
+    void handleProcessExecution();
     
     /**
-     * @brief Update all metrics
+     * @brief Handle memory management
+     */
+    void handleMemoryManagement();
+    
+    /**
+     * @brief Handle synchronization
+     */
+    void handleSynchronization();
+    
+    /**
+     * @brief Update metrics
      */
     void updateMetrics();
     
     /**
      * @brief Create scheduler instance
      * @param algorithm Scheduling algorithm
+     * @param time_quantum Time quantum for Round Robin
      * @return Unique pointer to scheduler
      */
-    std::unique_ptr<Scheduler> createScheduler(SchedulingAlgorithm algorithm);
+    std::unique_ptr<Scheduler> createScheduler(SchedulingAlgorithm algorithm, int time_quantum);
     
     /**
-     * @brief Check if simulation should continue
-     * @return true if simulation should continue
+     * @brief Check if all processes are completed
+     * @return true if all processes are terminated
      */
-    bool shouldContinueSimulation() const;
+    bool allProcessesCompleted() const;
     
     /**
-     * @brief Sleep for appropriate time based on simulation speed
+     * @brief Get sleep duration based on simulation speed
+     * @return Sleep duration in milliseconds
      */
-    void sleepForTimeStep();
+    std::chrono::milliseconds getSleepDuration() const;
 };
