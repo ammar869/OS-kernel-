@@ -3,7 +3,7 @@
 #include <QDir>
 #include <iostream>
 
-#include "gui/MainWindow.h"
+#include "MainWindow.h"
 
 int main(int argc, char *argv[])
 {

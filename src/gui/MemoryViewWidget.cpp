@@ -2,6 +2,7 @@
 #include <QPainter>
 #include <QMouseEvent>
 #include <QScrollArea>
+#include <QHeaderView>
 #include <algorithm>
 
 const std::vector<QColor> MemoryViewWidget::process_colors_ = {
@@ -306,4 +307,4 @@ QColor MemoryViewWidget::getProcessColor(int process_id) const {
     return process_colors_[process_id % process_colors_.size()];
 }
 
-#include "MemoryViewWidget.moc"
+// end of MemoryViewWidget.cpp

@@ -94,21 +94,32 @@ void MainWindow::setupUI() {
 void MainWindow::setupMenuBar() {
     // File menu
     QMenu* file_menu = menuBar()->addMenu("&File");
-    file_menu->addAction("&New Simulation", this, &MainWindow::onNewSimulation, QKeySequence::New);
-    file_menu->addAction("&Open Configuration...", this, &MainWindow::onOpenConfiguration, QKeySequence::Open);
-    file_menu->addAction("&Save Configuration...", this, &MainWindow::onSaveConfiguration, QKeySequence::Save);
+    auto* act_new  = file_menu->addAction("&New Simulation");
+    act_new->setShortcut(QKeySequence::New);
+    connect(act_new, &QAction::triggered, this, &MainWindow::onNewSimulation);
+
+    auto* act_open = file_menu->addAction("&Open Configuration...");
+    act_open->setShortcut(QKeySequence::Open);
+    connect(act_open, &QAction::triggered, this, &MainWindow::onOpenConfiguration);
+
+    auto* act_save = file_menu->addAction("&Save Configuration...");
+    act_save->setShortcut(QKeySequence::Save);
+    connect(act_save, &QAction::triggered, this, &MainWindow::onSaveConfiguration);
+
     file_menu->addSeparator();
-    file_menu->addAction("E&xit", this, &QWidget::close, QKeySequence::Quit);
+    auto* act_exit = file_menu->addAction("E&xit");
+    act_exit->setShortcut(QKeySequence::Quit);
+    connect(act_exit, &QAction::triggered, this, &QWidget::close);
 
     // Export menu
     QMenu* export_menu = menuBar()->addMenu("&Export");
-    export_menu->addAction("Export &Gantt Chart (PNG)...", this, &MainWindow::onExportGantt);
-    export_menu->addAction("Export &Metrics (CSV)...",     this, &MainWindow::onExportMetrics);
-    export_menu->addAction("Export Simulation &Log...",    this, &MainWindow::onExportLog);
+    connect(export_menu->addAction("Export &Gantt Chart (PNG)..."), &QAction::triggered, this, &MainWindow::onExportGantt);
+    connect(export_menu->addAction("Export &Metrics (CSV)..."),     &QAction::triggered, this, &MainWindow::onExportMetrics);
+    connect(export_menu->addAction("Export Simulation &Log..."),    &QAction::triggered, this, &MainWindow::onExportLog);
 
     // Help menu
     QMenu* help_menu = menuBar()->addMenu("&Help");
-    help_menu->addAction("&About", this, &MainWindow::onAbout);
+    connect(help_menu->addAction("&About"), &QAction::triggered, this, &MainWindow::onAbout);
 }
 
 void MainWindow::setupStatusBar() {
@@ -228,4 +239,4 @@ void MainWindow::onAbout() {
         "<p>Built with C++17 and Qt6.</p>");
 }
 
-#include "MainWindow.moc"
+// end of MainWindow.cpp

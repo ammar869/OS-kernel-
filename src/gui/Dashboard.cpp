@@ -289,4 +289,4 @@ void Dashboard::updateTimeDisplay() {
     time_display_->setText(QString("%1:%2").arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0')));
 }
 
-#include "Dashboard.moc"
+// end of Dashboard.cpp

@@ -311,4 +311,4 @@ QString ProcessTableWidget::getStateText(ProcessState state) const {
     }
 }
 
-#include "ProcessTableWidget.moc"
+// end of ProcessTableWidget.cpp

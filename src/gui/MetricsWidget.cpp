@@ -176,4 +176,4 @@ void MetricsWidget::setupUI() {
     main_layout_->addStretch();
 }
 
-#include "MetricsWidget.moc"
+// end of MetricsWidget.cpp

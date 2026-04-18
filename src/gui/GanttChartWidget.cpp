@@ -355,4 +355,4 @@ QSize GanttChartWidget::GanttDrawingArea::sizeHint() const {
     return QSize(800, 200);
 }
 
-#include "GanttChartWidget.moc"
+// end of GanttChartWidget.cpp
