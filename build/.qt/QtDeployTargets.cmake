@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_MiniOSIntegrationTests_FILE C:/Users/Ammar/Documents/Kernal/build/bin/MiniOSIntegrationTests.exe)
+set(__QT_DEPLOY_TARGET_MiniOSIntegrationTests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_MiniOSIntegrationTests_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_MiniOSKernelSimulator_FILE C:/Users/Ammar/Documents/Kernal/build/bin/MiniOSKernelSimulator.exe)
+set(__QT_DEPLOY_TARGET_MiniOSKernelSimulator_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_MiniOSKernelSimulator_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)
