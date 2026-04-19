@@ -5,15 +5,15 @@ C:/Users/Ammar/Documents/Kernal/src/controllers/ExportController.cpp
 C:/Users/Ammar/Documents/Kernal/src/controllers/GUIController.cpp
 C:/Users/Ammar/Documents/Kernal/src/controllers/SimulationController.cpp
 C:/Users/Ammar/Documents/Kernal/src/gui/Dashboard.cpp
-C:/Users/Ammar/Documents/Kernal/src/gui/GanttChartWidget.cpp
 C:/Users/Ammar/Documents/Kernal/src/gui/MemoryViewWidget.cpp
+C:/Users/Ammar/Documents/Kernal/src/gui/GanttChartWidget.cpp
 C:/Users/Ammar/Documents/Kernal/src/gui/MainWindow.cpp
 C:/Users/Ammar/Documents/Kernal/src/gui/MetricsWidget.cpp
 C:/Users/Ammar/Documents/Kernal/src/gui/ProcessTableWidget.cpp
 C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp
 C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp
-C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp
 C:/Users/Ammar/Documents/Kernal/src/models/Process.cpp
+C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp
 C:/Users/Ammar/Documents/Kernal/src/kernel/Scheduler.cpp
 C:/Users/Ammar/Documents/Kernal/src/kernel/SyncManager.cpp
 C:/Users/Ammar/Documents/Kernal/src/main.cpp

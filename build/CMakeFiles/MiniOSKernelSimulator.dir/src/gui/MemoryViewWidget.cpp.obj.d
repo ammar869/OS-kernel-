@@ -453,4 +453,6 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QScrollArea \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qheaderview.h
