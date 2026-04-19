@@ -99,15 +99,7 @@
 		"C:/msys64/ucrt64/include",
 		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
 	],
-	"MOC_MACRO_NAMES" : 
-	[
-		"Q_OBJECT",
-		"Q_GADGET",
-		"Q_NAMESPACE",
-		"Q_NAMESPACE_EXPORT",
-		"Q_GADGET_EXPORT",
-		"Q_ENUM_NS"
-	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 

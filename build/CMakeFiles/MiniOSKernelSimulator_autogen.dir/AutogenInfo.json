@@ -277,7 +277,51 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "MiniOSKernelSimulator_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/Dashboard.h",
+			"MU",
+			"6YEA5652QU/moc_Dashboard.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/GUIController.h",
+			"MU",
+			"6YEA5652QU/moc_GUIController.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/GanttChartWidget.h",
+			"MU",
+			"6YEA5652QU/moc_GanttChartWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/MainWindow.h",
+			"MU",
+			"6YEA5652QU/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/MemoryViewWidget.h",
+			"MU",
+			"6YEA5652QU/moc_MemoryViewWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/MetricsWidget.h",
+			"MU",
+			"6YEA5652QU/moc_MetricsWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/include/ProcessTableWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ProcessTableWidget.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/mocs_compilation.cpp",
@@ -317,15 +361,7 @@
 		"C:/msys64/ucrt64/include",
 		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
 	],
-	"MOC_MACRO_NAMES" : 
-	[
-		"Q_OBJECT",
-		"Q_GADGET",
-		"Q_NAMESPACE",
-		"Q_NAMESPACE_EXPORT",
-		"Q_GADGET_EXPORT",
-		"Q_ENUM_NS"
-	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 

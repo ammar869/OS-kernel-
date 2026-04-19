@@ -1,8 +1,5 @@
-C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/MainWindow.moc: C:/Users/Ammar/Documents/Kernal/src/gui/MainWindow.cpp \
+C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/6YEA5652QU/moc_GanttChartWidget.cpp: C:/Users/Ammar/Documents/Kernal/include/GanttChartWidget.h \
   C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/moc_predefs.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/QObject \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/QString \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q20bit.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q20functional.h \
@@ -12,8 +9,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/q20utility.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q23type_traits.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q23utility.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qalloc.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qanystringview.h \
@@ -24,13 +19,11 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbasicatomic.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qbytearrayview.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qcheckedint_impl.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qcompare.h \
@@ -43,22 +36,11 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qcontiguouscache.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qdatastream.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qdebug.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qdir.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qdirlisting.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qendian.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qeventloop.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qexceptionhandling.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qfile.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qfiledevice.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qfileinfo.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qfloat16.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qforeach.h \
@@ -71,13 +53,11 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qhashfunctions.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevicebase.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qitemselectionmodel.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qlist.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qmap.h \
@@ -87,7 +67,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qnamespace.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qnumeric.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qobject.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -99,7 +78,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qrefcount.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qset.h \
@@ -135,8 +113,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtextstream.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtformat_impl.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qtimer.h \
-  C:/Qt/6.11.0/mingw_64/include/QtCore/qtimezone.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -164,11 +140,8 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qfontmetrics.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qfontvariableaxis.h \
-  C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication.h \
-  C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qimage.h \
-  C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qpainter.h \
@@ -187,91 +160,32 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/Qt/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qtransform.h \
-  C:/Qt/6.11.0/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QApplication \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QComboBox \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QFileDialog \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QFrame \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QGridLayout \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QGroupBox \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHBoxLayout \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHeaderView \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMenuBar \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMessageBox \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QProgressBar \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QScrollArea \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QSlider \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QSpinBox \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QSplitter \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QStatusBar \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QTableWidget \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractslider.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qcombobox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qfiledialog.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgroupbox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qheaderview.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmenu.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmenubar.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmessagebox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qprogressbar.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qslider.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qspinbox.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qsplitter.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstatusbar.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstyle.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstyleoption.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabbar.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtableview.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtablewidget.h \
-  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
-  C:/Users/Ammar/Documents/Kernal/include/ConfigurationManager.h \
-  C:/Users/Ammar/Documents/Kernal/include/Dashboard.h \
-  C:/Users/Ammar/Documents/Kernal/include/ExportController.h \
-  C:/Users/Ammar/Documents/Kernal/include/GUIController.h \
-  C:/Users/Ammar/Documents/Kernal/include/GanttChartWidget.h \
-  C:/Users/Ammar/Documents/Kernal/include/MainWindow.h \
-  C:/Users/Ammar/Documents/Kernal/include/MemoryManager.h \
-  C:/Users/Ammar/Documents/Kernal/include/MemoryTypes.h \
-  C:/Users/Ammar/Documents/Kernal/include/MemoryViewWidget.h \
-  C:/Users/Ammar/Documents/Kernal/include/MetricsCollector.h \
-  C:/Users/Ammar/Documents/Kernal/include/MetricsWidget.h \
-  C:/Users/Ammar/Documents/Kernal/include/ProcessManager.h \
-  C:/Users/Ammar/Documents/Kernal/include/ProcessState.h \
-  C:/Users/Ammar/Documents/Kernal/include/ProcessTableWidget.h \
-  C:/Users/Ammar/Documents/Kernal/include/Scheduler.h \
-  C:/Users/Ammar/Documents/Kernal/include/SimulationConfig.h \
-  C:/Users/Ammar/Documents/Kernal/include/SimulationController.h \
-  C:/Users/Ammar/Documents/Kernal/include/SyncManager.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -301,7 +215,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/deque.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/erase_if.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/exception.h \
@@ -338,13 +251,10 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/bits/specfun.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/std_function.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/std_mutex.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_construct.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_deque.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h \
@@ -356,7 +266,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_pair.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_queue.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_set.h \
@@ -369,9 +278,7 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/this_thread_sleep.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/bits/unique_lock.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_set.h \
@@ -389,7 +296,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/cmath \
   C:/msys64/ucrt64/include/c++/15.2.0/compare \
   C:/msys64/ucrt64/include/c++/15.2.0/concepts \
-  C:/msys64/ucrt64/include/c++/15.2.0/condition_variable \
   C:/msys64/ucrt64/include/c++/15.2.0/cstddef \
   C:/msys64/ucrt64/include/c++/15.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/15.2.0/cstdio \
@@ -399,7 +305,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/cwchar \
   C:/msys64/ucrt64/include/c++/15.2.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/15.2.0/debug/debug.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/deque \
   C:/msys64/ucrt64/include/c++/15.2.0/exception \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/aligned_buffer.h \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/alloc_traits.h \
@@ -408,7 +313,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/string_conversions.h \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/type_traits.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/filesystem \
   C:/msys64/ucrt64/include/c++/15.2.0/functional \
   C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
   C:/msys64/ucrt64/include/c++/15.2.0/iosfwd \
@@ -417,14 +321,12 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/list \
   C:/msys64/ucrt64/include/c++/15.2.0/map \
   C:/msys64/ucrt64/include/c++/15.2.0/memory \
-  C:/msys64/ucrt64/include/c++/15.2.0/mutex \
   C:/msys64/ucrt64/include/c++/15.2.0/new \
   C:/msys64/ucrt64/include/c++/15.2.0/numeric \
   C:/msys64/ucrt64/include/c++/15.2.0/optional \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/pstl_config.h \
-  C:/msys64/ucrt64/include/c++/15.2.0/queue \
   C:/msys64/ucrt64/include/c++/15.2.0/ratio \
   C:/msys64/ucrt64/include/c++/15.2.0/set \
   C:/msys64/ucrt64/include/c++/15.2.0/stdexcept \
@@ -433,7 +335,6 @@ C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include/Main
   C:/msys64/ucrt64/include/c++/15.2.0/string \
   C:/msys64/ucrt64/include/c++/15.2.0/string_view \
   C:/msys64/ucrt64/include/c++/15.2.0/system_error \
-  C:/msys64/ucrt64/include/c++/15.2.0/thread \
   C:/msys64/ucrt64/include/c++/15.2.0/tr1/bessel_function.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/tr1/beta_function.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/tr1/ell_integral.tcc \

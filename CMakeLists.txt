@@ -11,6 +11,9 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
+# Tell AUTOMOC to also scan header files
+set(CMAKE_AUTOMOC_MACRO_NAMES "Q_OBJECT" "Q_GADGET" "Q_NAMESPACE")
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
@@ -55,7 +58,17 @@ set(ALL_SOURCES
     src/utils/InputValidator.cpp
 )
 
-add_executable(${PROJECT_NAME} ${ALL_SOURCES})
+set(ALL_HEADERS
+    include/MainWindow.h
+    include/Dashboard.h
+    include/ProcessTableWidget.h
+    include/GanttChartWidget.h
+    include/MemoryViewWidget.h
+    include/MetricsWidget.h
+    include/GUIController.h
+)
+
+add_executable(${PROJECT_NAME} ${ALL_SOURCES} ${ALL_HEADERS})
 target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Widgets)
 
 enable_testing()
