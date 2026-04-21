@@ -118,18 +118,22 @@ void Dashboard::setupUI() {
     
     // Add stretch to push everything to the top
     main_layout_->addStretch();
+    
+    // Now all widgets exist — safe to set initial state
+    setSimulationRunning(false);
 }
 
 void Dashboard::setupControlButtons() {
+    qDebug() << "[DB] Creating control_group_";
     control_group_ = new QGroupBox("Simulation Control", this);
     QVBoxLayout* control_layout = new QVBoxLayout(control_group_);
-    
-    // Create buttons
+
+    qDebug() << "[DB] Creating buttons";
     start_button_ = new QPushButton("Start", this);
     pause_button_ = new QPushButton("Pause", this);
-    stop_button_ = new QPushButton("Stop", this);
+    stop_button_  = new QPushButton("Stop", this);
     reset_button_ = new QPushButton("Reset", this);
-    step_button_ = new QPushButton("Step", this);
+    step_button_  = new QPushButton("Step", this);
     
     // Style buttons
     QString button_style = "QPushButton { padding: 8px; font-weight: bold; }";
@@ -166,28 +170,29 @@ void Dashboard::setupControlButtons() {
     
     main_layout_->addWidget(control_group_);
     
-    // Initial state
-    setSimulationRunning(false);
+    // NOTE: setSimulationRunning() is called AFTER all widgets are created in setupUI()
 }
 
 void Dashboard::setupSpeedControl() {
-    // Speed control in the control group
     QLabel* speed_title = new QLabel("Speed Control:", this);
-    control_group_->layout()->addWidget(speed_title);
-    
+    QVBoxLayout* ctrl_layout = qobject_cast<QVBoxLayout*>(control_group_->layout());
+    if (ctrl_layout) ctrl_layout->addWidget(speed_title);
+
     speed_slider_ = new QSlider(Qt::Horizontal, this);
     speed_slider_->setRange(1, 10);
     speed_slider_->setValue(1);
     speed_slider_->setTickPosition(QSlider::TicksBelow);
     speed_slider_->setTickInterval(1);
-    
+
     speed_label_ = new QLabel("Speed: 1 steps/sec", this);
     speed_label_->setStyleSheet("font-size: 12px;");
-    
+
     connect(speed_slider_, &QSlider::valueChanged, this, &Dashboard::onSpeedChanged);
-    
-    control_group_->layout()->addWidget(speed_slider_);
-    control_group_->layout()->addWidget(speed_label_);
+
+    if (ctrl_layout) {
+        ctrl_layout->addWidget(speed_slider_);
+        ctrl_layout->addWidget(speed_label_);
+    }
 }
 
 void Dashboard::setupAlgorithmControls() {
