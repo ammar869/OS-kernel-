@@ -1,29 +1,26 @@
 cmake_minimum_required(VERSION 3.16)
 project(MiniOSKernelSimulator VERSION 1.0.0 LANGUAGES CXX)
 
+# ── C++ Standard ──────────────────────────────────────────────────────────────
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
-
+# ── Qt Auto-tools (must be set BEFORE find_package) ───────────────────────────
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-# Tell AUTOMOC to also scan header files
-set(CMAKE_AUTOMOC_MACRO_NAMES "Q_OBJECT" "Q_GADGET" "Q_NAMESPACE")
+# ── Find Qt6 ──────────────────────────────────────────────────────────────────
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
+# ── Output directories ────────────────────────────────────────────────────────
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+# ── Include paths ─────────────────────────────────────────────────────────────
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-if(MSVC)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
-else()
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
-endif()
-
+# ── Sources ───────────────────────────────────────────────────────────────────
 set(ALL_SOURCES
     src/main.cpp
 
@@ -58,6 +55,7 @@ set(ALL_SOURCES
     src/utils/InputValidator.cpp
 )
 
+# Headers with Q_OBJECT — listed explicitly so AUTOMOC scans them
 set(ALL_HEADERS
     include/MainWindow.h
     include/Dashboard.h
@@ -68,10 +66,20 @@ set(ALL_HEADERS
     include/GUIController.h
 )
 
+# ── Executable ────────────────────────────────────────────────────────────────
 add_executable(${PROJECT_NAME} ${ALL_SOURCES} ${ALL_HEADERS})
-target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Widgets)
 
+# ── Link Qt modules ───────────────────────────────────────────────────────────
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Widgets
+)
+
+# ── Tests ─────────────────────────────────────────────────────────────────────
 enable_testing()
 add_subdirectory(tests)
 
+# ── Install ───────────────────────────────────────────────────────────────────
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)

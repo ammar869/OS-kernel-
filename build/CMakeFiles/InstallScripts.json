@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ammar/Documents/Kernal/build/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
