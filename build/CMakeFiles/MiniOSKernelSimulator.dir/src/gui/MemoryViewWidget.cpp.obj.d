@@ -384,6 +384,8 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QGridLayout \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
@@ -393,12 +395,10 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHBoxLayout \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QComboBox \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qcombobox.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -420,8 +420,12 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemview.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QGroupBox \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgroupbox.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qtextoption.h \
@@ -451,8 +455,4 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/QScrollArea \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qscrollarea.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHeaderView \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qheaderview.h
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h

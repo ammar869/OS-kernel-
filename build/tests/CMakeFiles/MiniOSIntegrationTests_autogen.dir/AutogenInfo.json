@@ -68,7 +68,6 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -104,7 +103,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/msys64/ucrt64/bin/c++.exe",
+		"C:/msys64/ucrt64/bin/g++.exe",
 		"-std=c++17",
 		"-w",
 		"-dM",

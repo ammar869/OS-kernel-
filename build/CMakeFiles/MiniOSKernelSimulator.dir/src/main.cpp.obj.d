@@ -385,51 +385,9 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/main.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QStyleFactory \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstylefactory.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/QDir \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qdir.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qdirlisting.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qfiledevice.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
- C:/msys64/ucrt64/include/c++/15.2.0/filesystem \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_fwd.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_path.h \
- C:/msys64/ucrt64/include/c++/15.2.0/locale \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cwctype \
- C:/msys64/ucrt64/include/wctype.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
- C:/msys64/ucrt64/include/c++/15.2.0/iomanip \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/quoted_string.h \
- C:/msys64/ucrt64/include/c++/15.2.0/sstream \
- C:/msys64/ucrt64/include/c++/15.2.0/istream \
- C:/msys64/ucrt64/include/c++/15.2.0/ios \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/ostream \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/sstream.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/codecvt \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_dir.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_ops.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qcalendar.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qfile.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qfileinfo.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qtimezone.h \
- C:/msys64/ucrt64/include/c++/15.2.0/iostream \
- C:/Users/Ammar/Documents/Kernal/include/MainWindow.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qaction.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h \
@@ -442,6 +400,25 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/main.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qfontvariableaxis.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/ios \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cwctype \
+ C:/msys64/ucrt64/include/wctype.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/istream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
+ C:/Users/Ammar/Documents/Kernal/include/MainWindow.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
@@ -484,6 +461,7 @@ CMakeFiles/MiniOSKernelSimulator.dir/src/main.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QComboBox \

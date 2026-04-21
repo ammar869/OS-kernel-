@@ -83,150 +83,150 @@ tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_
 tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj: tests/MiniOSIntegrationTests_autogen/mocs_compilation.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.obj -c C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.obj -c C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp > CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp > CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\build\tests\MiniOSIntegrationTests_autogen\mocs_compilation.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\MiniOSIntegrationTests_autogen\mocs_compilation.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj: C:/Users/Ammar/Documents/Kernal/tests/test_integration.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.obj -c C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.obj -c C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp > CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp > CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\tests\test_integration.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\test_integration.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/models/ProcessState.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\models\ProcessState.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\models\ProcessState.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\ProcessManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\ProcessManager.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/kernel/Scheduler.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\Scheduler.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\Scheduler.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\MemoryManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MemoryManager.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/kernel/SyncManager.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\SyncManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\SyncManager.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\kernel\MetricsCollector.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\kernel\MetricsCollector.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/utils/InputValidator.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\utils\InputValidator.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\utils\InputValidator.cpp.s
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/flags.make
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/includes_CXX.rsp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj: C:/Users/Ammar/Documents/Kernal/src/controllers/ConfigurationManager.cpp
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj: tests/CMakeFiles/MiniOSIntegrationTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ammar\Documents\Kernal\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj -MF CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.obj.d -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.obj -c C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.i"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.i
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp > CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.i
 
 tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.s"
-	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.s
+	cd /d C:\Users\Ammar\Documents\Kernal\build\tests && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ammar\Documents\Kernal\src\controllers\ConfigurationManager.cpp -o CMakeFiles\MiniOSIntegrationTests.dir\__\src\controllers\ConfigurationManager.cpp.s
 
 # Object files for target MiniOSIntegrationTests
 MiniOSIntegrationTests_OBJECTS = \

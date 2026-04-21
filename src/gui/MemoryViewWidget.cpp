@@ -16,7 +16,7 @@ const std::vector<QColor> MemoryViewWidget::process_colors_ = {
 // FrameWidget Implementation
 // ============================================================================
 
-MemoryViewWidget::FrameWidget::FrameWidget(int frame_id, QWidget* parent)
+FrameWidget::FrameWidget(int frame_id, QWidget* parent)
     : QFrame(parent), frame_id_(frame_id),
       frame_data_(frame_id), highlighted_(false) {
     setFixedSize(70, 55);
@@ -31,24 +31,24 @@ MemoryViewWidget::FrameWidget::FrameWidget(int frame_id, QWidget* parent)
     label_->setStyleSheet("font-size: 9px;");
 }
 
-void MemoryViewWidget::FrameWidget::setFrameData(const PageFrame& frame) {
+void FrameWidget::setFrameData(const PageFrame& frame) {
     frame_data_ = frame;
     update();
 }
 
-void MemoryViewWidget::FrameWidget::setHighlighted(bool highlighted) {
+void FrameWidget::setHighlighted(bool highlighted) {
     highlighted_ = highlighted;
     update();
 }
 
-void MemoryViewWidget::FrameWidget::mousePressEvent(QMouseEvent* event) {
+void FrameWidget::mousePressEvent(QMouseEvent* event) {
     if (event->button() == Qt::LeftButton) {
         emit clicked(frame_id_);
     }
     QFrame::mousePressEvent(event);
 }
 
-void MemoryViewWidget::FrameWidget::paintEvent(QPaintEvent* event) {
+void FrameWidget::paintEvent(QPaintEvent* event) {
     QFrame::paintEvent(event);
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);

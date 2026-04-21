@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <QStyleFactory>
-#include <QDir>
+#include <QMessageBox>
 #include <iostream>
 
 #include "MainWindow.h"
@@ -27,10 +27,12 @@ int main(int argc, char *argv[])
     }
     catch (const std::exception& e) {
         std::cerr << "Fatal error: " << e.what() << std::endl;
+        QMessageBox::critical(nullptr, "Fatal Error", QString::fromStdString(e.what()));
         return -1;
     }
     catch (...) {
         std::cerr << "Unknown fatal error occurred" << std::endl;
+        QMessageBox::critical(nullptr, "Fatal Error", "Unknown fatal error occurred");
         return -1;
     }
 }
