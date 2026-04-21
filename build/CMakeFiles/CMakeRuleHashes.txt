@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-59a9742deb9ef53ea6095c2f76566c52 MiniOSKernelSimulator_autogen/timestamp
-7001a222fdc13dc40777b59a841ddb60 tests/MiniOSIntegrationTests_autogen/timestamp
