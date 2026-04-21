@@ -41,3 +41,15 @@
 9262	17419	7985124835542836	CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MetricsWidget.cpp.obj	35d477a242162bfd
 7988	18326	7985124822816688	CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj	3f81847edb2ce899
 18326	20538	7985124926168387	bin/MiniOSKernelSimulator.exe	cfee366f200215f2
+128	1074	7985125525053638	MiniOSKernelSimulator_autogen/timestamp	5045af4eb34336ef
+128	1074	7985125525053638	MiniOSKernelSimulator_autogen/mocs_compilation.cpp	5045af4eb34336ef
+128	1074	7985125525053638	C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/timestamp	5045af4eb34336ef
+128	1074	7985125525053638	C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/mocs_compilation.cpp	5045af4eb34336ef
+1076	12974	7985125534530052	CMakeFiles/MiniOSKernelSimulator.dir/src/main.cpp.obj	6630f6a02b5c0296
+12974	17493	7985125653518298	bin/MiniOSKernelSimulator.exe	cfee366f200215f2
+34	274	7985126487331319	MiniOSKernelSimulator_autogen/timestamp	5045af4eb34336ef
+34	274	7985126487331319	MiniOSKernelSimulator_autogen/mocs_compilation.cpp	5045af4eb34336ef
+34	274	7985126487331319	C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/timestamp	5045af4eb34336ef
+34	274	7985126487331319	C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/mocs_compilation.cpp	5045af4eb34336ef
+275	4559	7985126489739131	CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MainWindow.cpp.obj	da2f810069f8f79
+4559	6451	7985126532576384	bin/MiniOSKernelSimulator.exe	cfee366f200215f2
