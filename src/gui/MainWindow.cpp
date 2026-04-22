@@ -9,7 +9,6 @@
 #include <QMessageBox>
 #include <QApplication>
 #include <QScrollArea>
-#include <QDebug>
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent) {
@@ -22,28 +21,18 @@ MainWindow::MainWindow(QWidget* parent)
 MainWindow::~MainWindow() {}
 
 void MainWindow::setupComponents() {
-    qDebug() << "[MW] Creating SimulationController";
     sim_controller_    = new SimulationController();
-    qDebug() << "[MW] Creating ExportController";
     export_controller_ = new ExportController();
-    qDebug() << "[MW] Creating Dashboard";
     dashboard_         = new Dashboard(this);
-    qDebug() << "[MW] Creating ProcessTableWidget";
     process_table_     = new ProcessTableWidget(this);
-    qDebug() << "[MW] Creating GanttChartWidget";
     gantt_chart_       = new GanttChartWidget(this);
-    qDebug() << "[MW] Creating MemoryViewWidget";
     memory_view_       = new MemoryViewWidget(this);
-    qDebug() << "[MW] Creating MetricsWidget";
     metrics_widget_    = new MetricsWidget(this);
-    qDebug() << "[MW] Creating GUIController";
     gui_controller_    = new GUIController(
         sim_controller_, dashboard_, process_table_,
         gantt_chart_, memory_view_, metrics_widget_, this);
-    qDebug() << "[MW] Connecting signals";
     connect(metrics_widget_, &MetricsWidget::exportRequested,
             this, &MainWindow::onExportMetrics);
-    qDebug() << "[MW] setupComponents done";
 }
 
 void MainWindow::setupUI() {

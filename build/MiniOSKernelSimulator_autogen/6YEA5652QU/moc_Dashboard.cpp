@@ -53,6 +53,10 @@ template <> constexpr inline auto Dashboard::qt_create_metaobjectdata<qt_meta_ta
         "memoryAlgorithmChanged",
         "timeQuantumChanged",
         "quantum",
+        "processAddRequested",
+        "priority",
+        "burst_time",
+        "arrival_time",
         "onStartSimulation",
         "onPauseSimulation",
         "onStopSimulation",
@@ -93,30 +97,34 @@ template <> constexpr inline auto Dashboard::qt_create_metaobjectdata<qt_meta_ta
         QtMocHelpers::SignalData<void(int)>(12, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Int, 13 },
         }}),
+        // Signal 'processAddRequested'
+        QtMocHelpers::SignalData<void(int, int, int)>(14, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 15 }, { QMetaType::Int, 16 }, { QMetaType::Int, 17 },
+        }}),
         // Slot 'onStartSimulation'
-        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'onPauseSimulation'
-        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'onStopSimulation'
-        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'onResetSimulation'
-        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'onStepSimulation'
         QtMocHelpers::SlotData<void()>(18, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onPauseSimulation'
+        QtMocHelpers::SlotData<void()>(19, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onStopSimulation'
+        QtMocHelpers::SlotData<void()>(20, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onResetSimulation'
+        QtMocHelpers::SlotData<void()>(21, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onStepSimulation'
+        QtMocHelpers::SlotData<void()>(22, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'onSpeedChanged'
-        QtMocHelpers::SlotData<void(int)>(19, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 20 },
+        QtMocHelpers::SlotData<void(int)>(23, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 24 },
         }}),
         // Slot 'onSchedulerChanged'
-        QtMocHelpers::SlotData<void(int)>(21, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 22 },
+        QtMocHelpers::SlotData<void(int)>(25, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 26 },
         }}),
         // Slot 'onMemoryAlgorithmChanged'
-        QtMocHelpers::SlotData<void(int)>(23, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::Int, 22 },
+        QtMocHelpers::SlotData<void(int)>(27, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Int, 26 },
         }}),
         // Slot 'onTimeQuantumChanged'
-        QtMocHelpers::SlotData<void(int)>(24, 2, QMC::AccessPublic, QMetaType::Void, {{
+        QtMocHelpers::SlotData<void(int)>(28, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Int, 13 },
         }}),
     };
@@ -151,15 +159,16 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 6: _t->schedulerChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         case 7: _t->memoryAlgorithmChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         case 8: _t->timeQuantumChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 9: _t->onStartSimulation(); break;
-        case 10: _t->onPauseSimulation(); break;
-        case 11: _t->onStopSimulation(); break;
-        case 12: _t->onResetSimulation(); break;
-        case 13: _t->onStepSimulation(); break;
-        case 14: _t->onSpeedChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 15: _t->onSchedulerChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 16: _t->onMemoryAlgorithmChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 17: _t->onTimeQuantumChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 9: _t->processAddRequested((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[3]))); break;
+        case 10: _t->onStartSimulation(); break;
+        case 11: _t->onPauseSimulation(); break;
+        case 12: _t->onStopSimulation(); break;
+        case 13: _t->onResetSimulation(); break;
+        case 14: _t->onStepSimulation(); break;
+        case 15: _t->onSpeedChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 16: _t->onSchedulerChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 17: _t->onMemoryAlgorithmChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 18: _t->onTimeQuantumChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
@@ -181,6 +190,8 @@ void Dashboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         if (QtMocHelpers::indexOfMethod<void (Dashboard::*)(int )>(_a, &Dashboard::memoryAlgorithmChanged, 7))
             return;
         if (QtMocHelpers::indexOfMethod<void (Dashboard::*)(int )>(_a, &Dashboard::timeQuantumChanged, 8))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (Dashboard::*)(int , int , int )>(_a, &Dashboard::processAddRequested, 9))
             return;
     }
 }
@@ -204,14 +215,14 @@ int Dashboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 18)
+        if (_id < 19)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 18;
+        _id -= 19;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 18)
+        if (_id < 19)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 18;
+        _id -= 19;
     }
     return _id;
 }
@@ -268,5 +279,11 @@ void Dashboard::memoryAlgorithmChanged(int _t1)
 void Dashboard::timeQuantumChanged(int _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 8, nullptr, _t1);
+}
+
+// SIGNAL 9
+void Dashboard::processAddRequested(int _t1, int _t2, int _t3)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 9, nullptr, _t1, _t2, _t3);
 }
 QT_WARNING_POP

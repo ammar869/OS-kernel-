@@ -69,7 +69,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "MiniOSIntegrationTests::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-MiniOSIntegrationTests-Debug-1a1db12d2920084bccaf.json",
+					"jsonFile" : "target-MiniOSIntegrationTests-Debug-217cd3bb2fb889540806.json",
 					"name" : "MiniOSIntegrationTests",
 					"projectIndex" : 0
 				},
@@ -90,7 +90,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MiniOSKernelSimulator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MiniOSKernelSimulator-Debug-bd4058a6b912db1070e2.json",
+					"jsonFile" : "target-MiniOSKernelSimulator-Debug-34eef2ae628b85247a52.json",
 					"name" : "MiniOSKernelSimulator",
 					"projectIndex" : 0
 				},

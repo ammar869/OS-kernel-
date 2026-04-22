@@ -40,6 +40,19 @@ void GUIController::connectSignals() {
     connect(dashboard_, &Dashboard::memoryAlgorithmChanged,   this, &GUIController::onMemoryAlgorithmChanged);
     connect(dashboard_, &Dashboard::timeQuantumChanged,       this, &GUIController::onTimeQuantumChanged);
 
+    // Add process button
+    connect(dashboard_, &Dashboard::processAddRequested, this, [this](int priority, int burst, int arrival) {
+        ProcessConfig cfg;
+        cfg.priority         = priority;
+        cfg.burst_time       = burst;
+        cfg.arrival_time     = arrival;
+        cfg.memory_requirement = 1;
+        int pid = sim_controller_->addProcess(cfg);
+        if (pid > 0) {
+            updateAllWidgets();
+        }
+    });
+
     // Process table -> memory view (show page table for selected process)
     connect(process_table_, &ProcessTableWidget::processSelected,
             memory_view_, &MemoryViewWidget::setSelectedProcess);

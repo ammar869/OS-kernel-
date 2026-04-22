@@ -124,11 +124,9 @@ void Dashboard::setupUI() {
 }
 
 void Dashboard::setupControlButtons() {
-    qDebug() << "[DB] Creating control_group_";
     control_group_ = new QGroupBox("Simulation Control", this);
     QVBoxLayout* control_layout = new QVBoxLayout(control_group_);
 
-    qDebug() << "[DB] Creating buttons";
     start_button_ = new QPushButton("Start", this);
     pause_button_ = new QPushButton("Pause", this);
     stop_button_  = new QPushButton("Stop", this);
@@ -276,11 +274,11 @@ void Dashboard::setupProcessControls() {
     add_process_button_->setStyleSheet("QPushButton { padding: 6px; background-color: #607D8B; color: white; font-weight: bold; }");
     
     connect(add_process_button_, &QPushButton::clicked, this, [this]() {
-        QMessageBox::information(this, "Add Process", 
-            QString("Process will be added with:\nPriority: %1\nBurst Time: %2\nArrival Time: %3")
-            .arg(priority_spin_->value())
-            .arg(burst_time_spin_->value())
-            .arg(arrival_time_spin_->value()));
+        emit processAddRequested(
+            priority_spin_->value(),
+            burst_time_spin_->value(),
+            arrival_time_spin_->value()
+        );
     });
     
     process_layout->addWidget(add_process_button_);

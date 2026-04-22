@@ -6,7 +6,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
 
 ## Tasks
 
-- [ ] 1. Project Setup and Core Infrastructure
+- [x] 1. Project Setup and Core Infrastructure
   - [x] 1.1 Initialize CMake project structure and dependencies
     - Create CMakeLists.txt with C++17 standard and Qt6 integration
     - Set up directory structure (src/, include/, tests/, resources/)
@@ -25,7 +25,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create test utilities and mock objects
     - _Requirements: Testing Strategy_
 
-- [ ] 2. Core Process Management System
+- [x] 2. Core Process Management System
   - [x] 2.1 Implement ProcessManager class
     - Create ProcessControlBlock management with thread-safe operations
     - Implement process creation, termination, and state management

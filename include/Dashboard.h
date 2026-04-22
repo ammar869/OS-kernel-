@@ -113,6 +113,7 @@ signals:
     void schedulerChanged(int algorithm);
     void memoryAlgorithmChanged(int algorithm);
     void timeQuantumChanged(int quantum);
+    void processAddRequested(int priority, int burst_time, int arrival_time);
 
 private:
     void setupUI();
