@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/tests/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-build/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-build/src/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/rapidcheck-build/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/rapidcheck-build/ext/cmake_install.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/rapidcheck-build/extras/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

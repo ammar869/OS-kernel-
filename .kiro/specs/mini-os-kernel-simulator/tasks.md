@@ -19,7 +19,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create SimulationConfig and SystemMetrics structures
     - _Requirements: 1.1, 3.1, 11.1_
 
-  - [ ]* 1.3 Set up testing framework and property-based testing infrastructure
+  - [-] 1.3 Set up testing framework and property-based testing infrastructure
     - Configure Catch2 testing framework
     - Set up RapidCheck for property-based testing
     - Create test utilities and mock objects
@@ -49,7 +49,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add error handling for invalid process parameters
     - _Requirements: 15.1, 15.2_
 
-- [ ] 3. CPU Scheduling Algorithms
+- [x] 3. CPU Scheduling Algorithms
   - [x] 3.1 Implement base Scheduler interface and FCFS scheduler
     - Create abstract Scheduler base class
     - Implement FCFSScheduler with arrival time-based selection
@@ -87,7 +87,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
 - [x] 4. Checkpoint - Core Process and Scheduling Systems
   - Ensure all tests pass, verify process creation and scheduling algorithms work correctly, ask the user if questions arise.
 
-- [ ] 5. Memory Management System
+- [x] 5. Memory Management System
   - [x] 5.1 Implement core MemoryManager class
     - Create PageFrame and PageTableEntry structures
     - Implement page allocation and deallocation methods
@@ -122,7 +122,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 10: Page Fault Handling**
     - **Validates: Requirements 3.7**
 
-- [ ] 6. Synchronization Primitives
+- [x] 6. Synchronization Primitives
   - [x] 6.1 Implement SyncManager with Semaphore class
     - Create Semaphore class with wait/signal operations
     - Implement process blocking and waking mechanisms
@@ -152,7 +152,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 14: Deadlock Prevention**
     - **Validates: Requirements 4.7**
 
-- [ ] 7. Performance Metrics Collection
+- [x] 7. Performance Metrics Collection
   - [x] 7.1 Implement MetricsCollector class
     - Create metrics calculation algorithms for waiting time, turnaround time, response time
     - Implement CPU utilization and throughput calculations
@@ -172,10 +172,10 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create export methods for metrics data
     - _Requirements: 5.7_
 
-- [ ] 8. Checkpoint - Core Kernel Systems Complete
+- [x] 8. Checkpoint - Core Kernel Systems Complete
   - Ensure all kernel components work together, verify memory management and synchronization, ask the user if questions arise.
 
-- [ ] 9. Simulation Engine and Time Management
+- [x] 9. Simulation Engine and Time Management
   - [x] 9.1 Implement SimulationController class
     - Create discrete time step execution engine
     - Implement simulation state management (start, pause, stop, reset)
@@ -200,7 +200,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 31: Performance Requirements**
     - **Validates: Requirements 14.3, 14.4**
 
-- [ ] 10. Configuration Management System
+- [x] 10. Configuration Management System
   - [x] 10.1 Implement ConfigurationManager class
     - Create JSON-based configuration file format
     - Implement save/load functionality for simulation configurations
@@ -219,7 +219,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 28: Configuration Validation**
     - **Validates: Requirements 12.5, 12.6**
 
-- [ ] 11. Qt GUI Framework Setup
+- [x] 11. Qt GUI Framework Setup
   - [x] 11.1 Create main application window and basic layout
     - Set up QMainWindow with menu bar and status bar
     - Create main widget layout with placeholder panels
@@ -236,7 +236,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 18: GUI Input Validation**
     - **Validates: Requirements 6.7, 15.1, 15.2**
 
-- [ ] 12. Process Table Implementation
+- [x] 12. Process Table Implementation
   - [x] 12.1 Implement ProcessTableWidget class
     - Create QTableWidget subclass with custom columns
     - Add process data display and real-time updates
@@ -252,7 +252,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Test highlighting and refresh mechanisms
     - _Requirements: 7.1, 7.2, 7.3_
 
-- [ ] 13. Gantt Chart Visualization
+- [x] 13. Gantt Chart Visualization
   - [x] 13.1 Implement GanttChartWidget class
     - Create custom QWidget for timeline visualization
     - Implement process execution block rendering
@@ -274,7 +274,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Test color assignment and block rendering
     - _Requirements: 8.6, 8.7_
 
-- [ ] 14. Memory View Implementation
+- [x] 14. Memory View Implementation
   - [x] 14.1 Implement MemoryViewWidget class
     - Create visual grid for page frame display
     - Add allocation status and process ownership visualization
@@ -290,7 +290,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Test page table visualization and updates
     - _Requirements: 9.1, 9.2, 9.3_
 
-- [ ] 15. Metrics Panel Implementation
+- [x] 15. Metrics Panel Implementation
   - [x] 15.1 Implement MetricsPanelWidget class
     - Create formatted display for all performance metrics
     - Add real-time updates during simulation
@@ -313,7 +313,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
 - [x] 16. Checkpoint - GUI Components Complete
   - Ensure all GUI components display correctly and respond to user input, verify real-time updates work properly, ask the user if questions arise.
 
-- [ ] 17. GUI-Controller Integration
+- [x] 17. GUI-Controller Integration
   - [x] 17.1 Implement GUIController class
     - Create controller to manage GUI-simulation interactions
     - Implement real-time GUI updates during simulation
@@ -330,7 +330,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Implement proper signal/slot connections throughout the system
     - _Requirements: 6.5, 7.3, 8.6, 9.6, 10.6_
 
-- [ ] 18. Export Functionality
+- [x] 18. Export Functionality
   - [x] 18.1 Implement ExportController class
     - Create export functionality for Gantt charts as images
     - Implement CSV export for performance metrics
@@ -350,7 +350,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add export progress indicators and error reporting
     - _Requirements: 13.5, 13.6_
 
-- [ ] 19. Error Handling and System Stability
+- [x] 19. Error Handling and System Stability
   - [x] 19.1 Implement comprehensive error handling system
     - Add error handling for resource exhaustion scenarios
     - Implement graceful degradation for system failures
@@ -367,7 +367,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create consistent error messaging system
     - _Requirements: 15.1, 15.2_
 
-- [ ] 20. Integration Testing and System Validation
+- [x] 20. Integration Testing and System Validation
   - [x] 20.1 Implement end-to-end integration tests
     - Create comprehensive simulation scenarios for testing
     - Test all algorithm combinations with various process loads
@@ -385,7 +385,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Optimize critical paths for better performance
     - _Requirements: 14.3, 14.4_
 
-- [ ] 21. Final System Integration and Polish
+- [x] 21. Final System Integration and Polish
   - [x] 21.1 Complete system integration and final testing
     - Integrate all components into cohesive application
     - Perform final validation of all requirements

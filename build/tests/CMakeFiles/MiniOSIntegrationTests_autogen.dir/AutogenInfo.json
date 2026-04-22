@@ -4,10 +4,20 @@
 	"CMAKE_BINARY_DIR" : "C:/Users/Ammar/Documents/Kernal/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Ammar/Documents/Kernal/build/tests",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Ammar/Documents/Kernal/tests",
-	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
 		"C:/Users/Ammar/Documents/Kernal/tests/CMakeLists.txt",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -18,7 +28,7 @@
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6TargetsPrecheck.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtFeature.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
@@ -52,8 +62,9 @@
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
 		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/extras/Catch.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Ammar/Documents/Kernal",
 	"CROSS_CONFIG" : false,
@@ -91,12 +102,12 @@
 		"C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.11.0/mingw_64/include/QtWidgets",
 		"C:/Qt/6.11.0/mingw_64/include/QtGui",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
-		"C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
+		"C:/msys64/ucrt64/include/c++/15.2.0",
+		"C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32",
+		"C:/msys64/ucrt64/include/c++/15.2.0/backward",
+		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+		"C:/msys64/ucrt64/include",
+		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -111,12 +122,12 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+		"C:/msys64/ucrt64/bin/g++.exe",
 		"-std=c++17",
+		"-w",
 		"-dM",
 		"-E",
-		"-c",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "C:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
