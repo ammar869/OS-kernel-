@@ -1,1 +1,0 @@
--IC:/Users/Ammar/Documents/Kernal/build_test_check/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem "C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++" -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui

@@ -135,8 +135,8 @@ TEST_CASE("Test utilities produce valid objects", "[framework][smoke][utils]")
         auto sm = makeSyncManager(2, 3, sem_ids, mutex_ids);
         REQUIRE(sem_ids.size() == 2);
         REQUIRE(mutex_ids.size() == 3);
-        REQUIRE(sm.getSemaphoreCount() == 2);
-        REQUIRE(sm.getMutexCount() == 3);
+        REQUIRE(sm->getSemaphoreCount() == 2);
+        REQUIRE(sm->getMutexCount() == 3);
     }
 }
 

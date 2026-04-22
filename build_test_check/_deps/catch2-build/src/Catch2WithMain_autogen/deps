@@ -1,7 +1,0 @@
-Catch2WithMain_autogen/timestamp: \
-	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake \
-	C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-src/CMake/CatchMiscFunctions.cmake \
-	C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-src/src/CMakeLists.txt \
-	C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-src/src/catch2/catch_user_config.hpp.in \
-	C:/Users/Ammar/Documents/Kernal/build_test_check/_deps/catch2-src/src/catch2/internal/catch_main.cpp \
-	C:/Program\ Files/CMake/bin/cmake.exe

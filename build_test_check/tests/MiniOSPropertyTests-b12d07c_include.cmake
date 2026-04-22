@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/Ammar/Documents/Kernal/build_test_check/tests/MiniOSPropertyTests-b12d07c_tests.cmake")
-  include("C:/Users/Ammar/Documents/Kernal/build_test_check/tests/MiniOSPropertyTests-b12d07c_tests.cmake")
-else()
-  add_test(MiniOSPropertyTests_NOT_BUILT-b12d07c MiniOSPropertyTests_NOT_BUILT-b12d07c)
-endif()

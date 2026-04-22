@@ -117,26 +117,29 @@ inline MemoryManager makeMemoryManager(
 /**
  * @brief Create a SyncManager pre-populated with semaphores and mutexes.
  *
+ * Returns a heap-allocated SyncManager (SyncManager is non-copyable due to
+ * internal std::mutex members).
+ *
  * @param sem_count    Number of semaphores to create (initial count = 1 each)
  * @param mutex_count  Number of mutexes to create
  * @param sem_ids      [out] IDs of created semaphores
  * @param mutex_ids    [out] IDs of created mutexes
- * @return             Configured SyncManager
+ * @return             unique_ptr to configured SyncManager
  */
-inline SyncManager makeSyncManager(int sem_count, int mutex_count,
-                                   std::vector<int>& sem_ids,
-                                   std::vector<int>& mutex_ids)
+inline std::unique_ptr<SyncManager> makeSyncManager(int sem_count, int mutex_count,
+                                                    std::vector<int>& sem_ids,
+                                                    std::vector<int>& mutex_ids)
 {
-    SyncManager sm;
+    auto sm = std::make_unique<SyncManager>();
     sem_ids.clear();
     mutex_ids.clear();
 
     for (int i = 0; i < sem_count; ++i) {
-        int id = sm.createSemaphore(1);
+        int id = sm->createSemaphore(1);
         if (id > 0) sem_ids.push_back(id);
     }
     for (int i = 0; i < mutex_count; ++i) {
-        int id = sm.createMutex();
+        int id = sm->createMutex();
         if (id > 0) mutex_ids.push_back(id);
     }
     return sm;
