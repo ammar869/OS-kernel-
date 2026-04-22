@@ -17,9 +17,6 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 # ── Output directories ────────────────────────────────────────────────────────
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# ── Include paths ─────────────────────────────────────────────────────────────
-include_directories(${CMAKE_SOURCE_DIR}/include)
-
 # ── Sources ───────────────────────────────────────────────────────────────────
 set(ALL_SOURCES
     src/main.cpp
@@ -68,6 +65,11 @@ set(ALL_HEADERS
 
 # ── Executable ────────────────────────────────────────────────────────────────
 add_executable(${PROJECT_NAME} ${ALL_SOURCES} ${ALL_HEADERS})
+
+# ── Include paths ─────────────────────────────────────────────────────────────
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+)
 
 # ── Link Qt modules ───────────────────────────────────────────────────────────
 target_link_libraries(${PROJECT_NAME}

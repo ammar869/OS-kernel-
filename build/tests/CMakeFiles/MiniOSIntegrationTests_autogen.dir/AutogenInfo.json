@@ -79,6 +79,7 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -102,12 +103,12 @@
 		"C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.11.0/mingw_64/include/QtWidgets",
 		"C:/Qt/6.11.0/mingw_64/include/QtGui",
-		"C:/msys64/ucrt64/include/c++/15.2.0",
-		"C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32",
-		"C:/msys64/ucrt64/include/c++/15.2.0/backward",
-		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
-		"C:/msys64/ucrt64/include",
-		"C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -122,7 +123,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/msys64/ucrt64/bin/g++.exe",
+		"C:/Qt/Tools/mingw1310_64/bin/g++.exe",
 		"-std=c++17",
 		"-w",
 		"-dM",

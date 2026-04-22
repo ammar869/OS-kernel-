@@ -53,11 +53,11 @@ set_target_properties(rapidcheck PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include/"
 )
 
-# Import target "rapidcheck" for configuration "Debug"
-set_property(TARGET rapidcheck APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "rapidcheck" for configuration ""
+set_property(TARGET rapidcheck APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(rapidcheck PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/librapidcheck.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/librapidcheck.a"
   )
 
 # This file does not depend on other imported targets which have

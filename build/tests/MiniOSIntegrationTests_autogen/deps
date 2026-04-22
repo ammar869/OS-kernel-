@@ -1,4 +1,12 @@
 MiniOSIntegrationTests_autogen/timestamp: \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/FindGit.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
@@ -41,8 +49,7 @@ MiniOSIntegrationTests_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
 	C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/extras/Catch.cmake \
 	C:/Users/Ammar/Documents/Kernal/src/controllers/ConfigurationManager.cpp \
 	C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp \
 	C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp \
@@ -53,4 +60,4 @@ MiniOSIntegrationTests_autogen/timestamp: \
 	C:/Users/Ammar/Documents/Kernal/src/utils/InputValidator.cpp \
 	C:/Users/Ammar/Documents/Kernal/tests/CMakeLists.txt \
 	C:/Users/Ammar/Documents/Kernal/tests/test_integration.cpp \
-	C:/Qt/Tools/CMake_64/bin/cmake.exe
+	C:/Program\ Files/CMake/bin/cmake.exe

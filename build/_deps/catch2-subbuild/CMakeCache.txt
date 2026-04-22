@@ -27,7 +27,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Ammar/Documents/Kernal/build/_d
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/catch2-populate
 
 //No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:FILEPATH=c:/Users/Ammar/.kiro/extensions/kylinideteam.kylin-cmake-tools-0.2.0-universal/res/ninja/win32-x64/ninja
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/ninja-win/ninja.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
