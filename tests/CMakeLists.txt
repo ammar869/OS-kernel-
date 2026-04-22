@@ -46,12 +46,14 @@ add_executable(MiniOSPropertyTests
     test_framework_setup.cpp
     ${KERNEL_SOURCES}
 )
-target_include_directories(MiniOSPropertyTests PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(MiniOSPropertyTests PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+    ${rapidcheck_SOURCE_DIR}/extras/catch/include
+)
 target_link_libraries(MiniOSPropertyTests
     PRIVATE
     Catch2::Catch2WithMain
     rapidcheck
-    rapidcheck_catch
     Qt6::Core
     Qt6::Widgets
 )

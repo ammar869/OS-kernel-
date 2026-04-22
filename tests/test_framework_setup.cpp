@@ -141,14 +141,8 @@ TEST_CASE("Test utilities produce valid objects", "[framework][smoke][utils]")
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// 4. RapidCheck smoke test — process PIDs are always positive
+// 4. RapidCheck smoke tests — verify PBT infrastructure works
 // ─────────────────────────────────────────────────────────────────────────────
-
-RC_BOOST_PROP(process_pids_are_always_positive, ())
-{
-    // This is intentionally a no-op placeholder that confirms rc::check compiles.
-    // Real property tests are added in tasks 2.2 – 21.3.
-}
 
 TEST_CASE("RapidCheck: process PIDs are always positive", "[framework][smoke][pbt]")
 {
