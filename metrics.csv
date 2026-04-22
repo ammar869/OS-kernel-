@@ -1,0 +1,15 @@
+# Mini OS Kernel Simulator - Metrics Export
+# Exported: 2026-04-23T01:34:33
+
+Metric,Value
+Simulation Time,0
+Total Processes,5
+Completed Processes,0
+Average Waiting Time,0.00
+Average Turnaround Time,0.00
+Average Response Time,0.00
+CPU Utilization (%),0.00
+Throughput (proc/unit),0.00
+Memory Utilization (%),31.25
+Page Faults,0
+Page Replacements,0

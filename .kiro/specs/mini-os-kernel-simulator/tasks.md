@@ -32,7 +32,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add process lookup and enumeration methods
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6_
 
-  - [~] 2.2 Write property test for process creation and management
+  - [ ] 2.2 Write property test for process creation and management
     - **Property 1: Process Creation and Management**
     - **Validates: Requirements 1.1, 1.2, 1.6**
 
@@ -211,11 +211,11 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - **Property 26: Configuration Management Round-trip**
     - **Validates: Requirements 12.1, 12.2, 12.3**
 
-  - [ ] 10.3 Write property test for configuration file format
+  - [~] 10.3 Write property test for configuration file format
     - **Property 27: Configuration File Format**
     - **Validates: Requirements 12.4**
 
-  - [ ] 10.4 Write property test for configuration validation
+  - [~] 10.4 Write property test for configuration validation
     - **Property 28: Configuration Validation**
     - **Validates: Requirements 12.5, 12.6**
 
@@ -232,7 +232,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Implement signal/slot connections for user interactions
     - _Requirements: 6.3, 6.4, 6.5, 6.6_
 
-  - [ ] 11.3 Write property test for GUI input validation
+  - [~] 11.3 Write property test for GUI input validation
     - **Property 18: GUI Input Validation**
     - **Validates: Requirements 6.7, 15.1, 15.2**
 
@@ -243,11 +243,11 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Implement running process highlighting
     - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5, 7.6_
 
-  - [ ] 12.2 Write property test for process table display accuracy
+  - [~] 12.2 Write property test for process table display accuracy
     - **Property 19: Process Table Display Accuracy**
     - **Validates: Requirements 7.1, 7.4, 7.5**
 
-  - [ ] 12.3 Write unit tests for process table widget functionality
+  - [~] 12.3 Write unit tests for process table widget functionality
     - Test column setup, data updates, and sorting
     - Test highlighting and refresh mechanisms
     - _Requirements: 7.1, 7.2, 7.3_
@@ -259,7 +259,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add color coding and process labeling
     - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.5_
 
-  - [ ] 13.2 Write property test for Gantt chart visualization
+  - [~] 13.2 Write property test for Gantt chart visualization
     - **Property 20: Gantt Chart Visualization**
     - **Validates: Requirements 8.1, 8.2, 8.3, 8.5, 8.7**
 
@@ -269,7 +269,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create time scale display and navigation controls
     - _Requirements: 8.6, 8.7_
 
-  - [ ] 13.4 Write unit tests for Gantt chart interactions
+  - [~] 13.4 Write unit tests for Gantt chart interactions
     - Test scrolling, zooming, and timeline navigation
     - Test color assignment and block rendering
     - _Requirements: 8.6, 8.7_
@@ -281,11 +281,11 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Implement page table display for selected processes
     - _Requirements: 9.1, 9.2, 9.3, 9.4, 9.5, 9.6_
 
-  - [ ] 14.2 Write property test for memory view accuracy
+  - [~] 14.2 Write property test for memory view accuracy
     - **Property 21: Memory View Accuracy**
     - **Validates: Requirements 9.1, 9.2, 9.3, 9.4, 9.5**
 
-  - [ ] 14.3 Write unit tests for memory view functionality
+  - [~] 14.3 Write unit tests for memory view functionality
     - Test frame grid display and color coding
     - Test page table visualization and updates
     - _Requirements: 9.1, 9.2, 9.3_
@@ -297,15 +297,15 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Implement proper number formatting and units
     - _Requirements: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6_
 
-  - [ ] 15.2 Write property test for metrics display formatting
+  - [~] 15.2 Write property test for metrics display formatting
     - **Property 22: Metrics Display Formatting**
     - **Validates: Requirements 10.2, 10.3, 10.4, 10.5**
 
-  - [ ] 15.3 Write property test for metrics reset behavior
+  - [~] 15.3 Write property test for metrics reset behavior
     - **Property 23: Metrics Reset Behavior**
     - **Validates: Requirements 10.7**
 
-  - [ ] 15.4 Write unit tests for metrics panel functionality
+  - [~] 15.4 Write unit tests for metrics panel functionality
     - Test metric calculations and display formatting
     - Test reset and update mechanisms
     - _Requirements: 10.1, 10.6, 10.7_
@@ -320,7 +320,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add event handling for user interactions
     - _Requirements: 6.5, 7.3, 7.6, 8.6, 9.6, 10.6_
 
-  - [ ] 17.2 Write property test for GUI real-time updates
+  - [~] 17.2 Write property test for GUI real-time updates
     - **Property 17: GUI Real-time Updates**
     - **Validates: Requirements 6.5, 7.3, 7.6, 8.6, 9.6, 10.6**
 
@@ -337,11 +337,11 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Add text file export for simulation logs
     - _Requirements: 13.1, 13.2, 13.3, 13.4_
 
-  - [ ] 18.2 Write property test for export functionality
+  - [~] 18.2 Write property test for export functionality
     - **Property 29: Export Functionality**
     - **Validates: Requirements 13.1, 13.2, 13.3, 13.4**
 
-  - [ ] 18.3 Write property test for export error handling
+  - [~] 18.3 Write property test for export error handling
     - **Property 30: Export Error Handling**
     - **Validates: Requirements 13.6**
 
@@ -357,7 +357,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create user-friendly error reporting and logging
     - _Requirements: 14.7, 15.3, 15.4, 15.5, 15.6, 15.7_
 
-  - [ ] 19.2 Write property test for error handling and system stability
+  - [~] 19.2 Write property test for error handling and system stability
     - **Property 32: Error Handling and System Stability**
     - **Validates: Requirements 14.7, 15.3, 15.4, 15.5, 15.6, 15.7**
 
@@ -374,7 +374,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Verify system performance with up to 100 concurrent processes
     - _Requirements: 14.3, 14.4_
 
-  - [ ] 20.2 Write integration tests for algorithm interactions
+  - [~] 20.2 Write integration tests for algorithm interactions
     - Test scheduling and memory management integration
     - Test synchronization with process management
     - _Requirements: 2.7, 3.8, 4.7_
@@ -398,7 +398,7 @@ This implementation plan breaks down the Mini OS Kernel Simulator into manageabl
     - Create user documentation and help system
     - _Requirements: 14.1, 14.2_
 
-  - [ ] 21.3 Final comprehensive system test
+  - [~] 21.3 Final comprehensive system test
     - Run complete test suite including all property-based tests
     - Verify all 32 correctness properties pass
     - Perform final performance validation

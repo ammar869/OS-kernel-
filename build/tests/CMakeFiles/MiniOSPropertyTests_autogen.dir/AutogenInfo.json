@@ -193,6 +193,11 @@
 			"C:/Users/Ammar/Documents/Kernal/tests/test_framework_setup.cpp",
 			"MU",
 			null
+		],
+		[
+			"C:/Users/Ammar/Documents/Kernal/tests/test_process_management.cpp",
+			"MU",
+			null
 		]
 	],
 	"UIC_OPTIONS" : [],

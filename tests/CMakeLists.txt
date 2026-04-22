@@ -44,6 +44,7 @@ add_test(NAME IntegrationTests COMMAND MiniOSIntegrationTests)
 # ── Catch2 + RapidCheck framework setup / property-based tests ────────────────
 add_executable(MiniOSPropertyTests
     test_framework_setup.cpp
+    test_process_management.cpp
     ${KERNEL_SOURCES}
 )
 target_include_directories(MiniOSPropertyTests PRIVATE
