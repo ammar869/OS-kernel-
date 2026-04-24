@@ -1,0 +1,1124 @@
+[
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\MiniOSKernelSimulator_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\MiniOSKernelSimulator_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/MiniOSKernelSimulator_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\main.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\main.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/main.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\models\\ProcessState.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\ProcessState.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/ProcessState.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/models/ProcessState.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\models\\Process.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\Process.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/Process.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/models/Process.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\models\\MemoryPage.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\MemoryPage.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/MemoryPage.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/models/MemoryPage.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\models\\SyncPrimitive.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\SyncPrimitive.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/SyncPrimitive.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/models/SyncPrimitive.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\kernel\\ProcessManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\ProcessManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/kernel/ProcessManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\kernel\\Scheduler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\Scheduler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/Scheduler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/kernel/Scheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\kernel\\MemoryManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MemoryManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/kernel/MemoryManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\kernel\\SyncManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\SyncManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/SyncManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/kernel/SyncManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\kernel\\MetricsCollector.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MetricsCollector.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/kernel/MetricsCollector.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\controllers\\SimulationController.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\SimulationController.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/SimulationController.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/controllers/SimulationController.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\controllers\\ConfigurationManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\ConfigurationManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/ConfigurationManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/controllers/ConfigurationManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\controllers\\GUIController.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\GUIController.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/GUIController.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/controllers/GUIController.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\controllers\\ExportController.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\ExportController.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/ExportController.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/controllers/ExportController.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\MainWindow.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\MainWindow.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/MainWindow.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MainWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\Dashboard.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\Dashboard.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/Dashboard.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/Dashboard.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\ProcessTableWidget.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\ProcessTableWidget.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/ProcessTableWidget.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/ProcessTableWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\GanttChartWidget.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\GanttChartWidget.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/GanttChartWidget.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/GanttChartWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\MemoryViewWidget.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\MemoryViewWidget.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/MemoryViewWidget.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MemoryViewWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\gui\\MetricsWidget.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\gui\\MetricsWidget.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/gui/MetricsWidget.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/gui/MetricsWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/MiniOSKernelSimulator_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -g -std=c++17 -o CMakeFiles\\MiniOSKernelSimulator.dir\\src\\utils\\InputValidator.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\utils\\InputValidator.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/utils/InputValidator.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/MiniOSKernelSimulator.dir/src/utils/InputValidator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\MiniOSIntegrationTests_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\tests\\MiniOSIntegrationTests_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/MiniOSIntegrationTests_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\test_integration.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\tests\\test_integration.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/tests/test_integration.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/test_integration.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\models\\ProcessState.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\ProcessState.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/ProcessState.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/models/ProcessState.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\kernel\\ProcessManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\ProcessManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/ProcessManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\kernel\\Scheduler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\Scheduler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/Scheduler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/Scheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\kernel\\MemoryManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MemoryManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MemoryManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\kernel\\SyncManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\SyncManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/SyncManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/SyncManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\kernel\\MetricsCollector.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MetricsCollector.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/kernel/MetricsCollector.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\utils\\InputValidator.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\utils\\InputValidator.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/utils/InputValidator.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/utils/InputValidator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSIntegrationTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSIntegrationTests.dir\\__\\src\\controllers\\ConfigurationManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\ConfigurationManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/ConfigurationManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSIntegrationTests.dir/__/src/controllers/ConfigurationManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\MiniOSPropertyTests_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\tests\\MiniOSPropertyTests_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/MiniOSPropertyTests_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\test_framework_setup.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\tests\\test_framework_setup.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/tests/test_framework_setup.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/test_framework_setup.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\test_process_management.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\tests\\test_process_management.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/tests/test_process_management.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/test_process_management.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\models\\ProcessState.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\models\\ProcessState.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/models/ProcessState.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/models/ProcessState.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\kernel\\ProcessManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\ProcessManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/ProcessManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/kernel/ProcessManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\kernel\\Scheduler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\Scheduler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/Scheduler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/kernel/Scheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\kernel\\MemoryManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MemoryManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MemoryManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/kernel/MemoryManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\kernel\\SyncManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\SyncManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/SyncManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/kernel/SyncManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\kernel\\MetricsCollector.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\kernel\\MetricsCollector.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/kernel/MetricsCollector.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/kernel/MetricsCollector.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\utils\\InputValidator.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\utils\\InputValidator.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/utils/InputValidator.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/utils/InputValidator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Ammar/Documents/Kernal/build/tests/MiniOSPropertyTests_autogen/include -IC:/Users/Ammar/Documents/Kernal/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/extras/catch/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include -isystem C:/Qt/6.11.0/mingw_64/include/QtCore -isystem C:/Qt/6.11.0/mingw_64/include -isystem C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.0/mingw_64/include/QtGui -g -std=c++17 -o tests\\CMakeFiles\\MiniOSPropertyTests.dir\\__\\src\\controllers\\ConfigurationManager.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\src\\controllers\\ConfigurationManager.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/src/controllers/ConfigurationManager.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/tests/CMakeFiles/MiniOSPropertyTests.dir/__/src/controllers/ConfigurationManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-build\\src\\Catch2_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\catch_chronometer.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\catch_chronometer.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_analyse.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_analyse.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_benchmark_function.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_benchmark_function.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_run_for_at_least.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_run_for_at_least.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_stats.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_stats.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generator_exception.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generator_exception.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generators.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generators.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generators_random.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generators_random.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_automake.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_automake.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_common_base.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_common_base.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_compact.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_compact.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_console.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_console.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_cumulative_base.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_cumulative_base.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_event_listener.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_event_listener.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_helpers.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_helpers.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_json.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_json.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_junit.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_junit.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_multi.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_multi.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_registrars.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_registrars.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_sonarqube.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_sonarqube.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_streaming_base.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_streaming_base.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_tap.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_tap.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_teamcity.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_teamcity.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_xml.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_xml.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_capture.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_capture.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_config.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_config.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_exception.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_exception.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_generatortracker.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_generatortracker.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_registry_hub.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_registry_hub.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_reporter.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_reporter.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_reporter_factory.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_reporter_factory.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_testcase.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_testcase.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_approx.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_approx.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_approx.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_assertion_result.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_assertion_result.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_config.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_config.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_config.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_get_random_seed.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_get_random_seed.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_message.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_message.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_message.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_registry_hub.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_registry_hub.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_session.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_session.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_session.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_tag_alias_autoregistrar.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_tag_alias_autoregistrar.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_test_case_info.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_test_case_info.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_test_spec.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_test_spec.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_timer.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_timer.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_timer.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_tostring.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_tostring.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_tostring.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_totals.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_totals.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_totals.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_translate_exception.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_translate_exception.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_version.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\catch_version.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/catch_version.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_assertion_handler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_assertion_handler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_case_insensitive_comparisons.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_case_insensitive_comparisons.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_clara.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_clara.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_commandline.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_commandline.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_console_colour.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_console_colour.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_context.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_context.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_debug_console.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_debug_console.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_debugger.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_debugger.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_decomposer.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_decomposer.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_enforce.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_enforce.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_enum_values_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_enum_values_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_errno_guard.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_errno_guard.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_exception_translator_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_exception_translator_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_fatal_condition_handler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_fatal_condition_handler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_floating_point_helpers.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_floating_point_helpers.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_getenv.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_getenv.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_istream.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_istream.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_jsonwriter.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_jsonwriter.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_lazy_expr.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_lazy_expr.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_leak_detector.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_leak_detector.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_list.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_list.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_message_info.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_message_info.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_output_redirect.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_output_redirect.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_parse_numbers.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_parse_numbers.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_polyfills.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_polyfills.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_random_number_generator.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_random_number_generator.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_random_seed_generation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_random_seed_generation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reporter_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reporter_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reporter_spec_parser.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reporter_spec_parser.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_result_type.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_result_type.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reusable_string_stream.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reusable_string_stream.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_run_context.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_run_context.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_section.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_section.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_singletons.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_singletons.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_source_line_info.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_source_line_info.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_startup_exception_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_startup_exception_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_stdstreams.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_stdstreams.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_string_manip.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_string_manip.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_stringref.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_stringref.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_tag_alias_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_tag_alias_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_info_hasher.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_info_hasher.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_registry_impl.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_registry_impl.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_tracker.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_tracker.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_failure_exception.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_failure_exception.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_registry.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_registry.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_spec_parser.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_spec_parser.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_textflow.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_textflow.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_uncaught_exceptions.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_uncaught_exceptions.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_wildcard_pattern.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_wildcard_pattern.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_xmlwriter.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_xmlwriter.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_container_properties.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_container_properties.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_exception.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_exception.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_floating_point.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_floating_point.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_predicate.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_predicate.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_quantifiers.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_quantifiers.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_string.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_string.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_templated.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_templated.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\internal\\catch_matchers_impl.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\internal\\catch_matchers_impl.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2WithMain_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2WithMain.dir\\Catch2WithMain_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-build\\src\\Catch2WithMain_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2WithMain_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/Catch2WithMain_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/Catch2WithMain_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/.. -IC:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/generated-includes -g -std=c++17 -ffile-prefix-map=C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/= -o _deps\\catch2-build\\src\\CMakeFiles\\Catch2WithMain.dir\\catch2\\internal\\catch_main.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_main.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\rapidcheck_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-build\\rapidcheck_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/rapidcheck_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\BeforeMinimalTestCase.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\BeforeMinimalTestCase.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/BeforeMinimalTestCase.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/BeforeMinimalTestCase.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\Check.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\Check.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/Check.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/Check.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\Classify.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\Classify.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/Classify.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/Classify.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\GenerationFailure.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\GenerationFailure.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/GenerationFailure.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/GenerationFailure.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\Log.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\Log.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/Log.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/Log.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11  -O3 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\Random.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\Random.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/Random.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/Random.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\Show.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\Show.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/Show.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/Show.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Any.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Any.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Any.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Any.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Assertions.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Assertions.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Assertions.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Assertions.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Base64.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Base64.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Base64.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Base64.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Configuration.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Configuration.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Configuration.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Configuration.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\DefaultTestListener.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\DefaultTestListener.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/DefaultTestListener.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/DefaultTestListener.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\FrequencyMap.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\FrequencyMap.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/FrequencyMap.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/FrequencyMap.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\ImplicitParam.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\ImplicitParam.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/ImplicitParam.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/ImplicitParam.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\LogTestListener.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\LogTestListener.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/LogTestListener.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/LogTestListener.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\MapParser.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\MapParser.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/MapParser.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/MapParser.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\MulticastTestListener.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\MulticastTestListener.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/MulticastTestListener.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/MulticastTestListener.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\ParseException.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\ParseException.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/ParseException.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/ParseException.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Platform.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Platform.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Platform.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Platform.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Property.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Property.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Property.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Property.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\PropertyContext.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\PropertyContext.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/PropertyContext.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/PropertyContext.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\ReproduceListener.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\ReproduceListener.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/ReproduceListener.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/ReproduceListener.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Results.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Results.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Results.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Results.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Serialization.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Serialization.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Serialization.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Serialization.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\StringSerialization.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\StringSerialization.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/StringSerialization.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/StringSerialization.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\TestMetadata.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\TestMetadata.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/TestMetadata.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/TestMetadata.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\TestParams.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\TestParams.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/TestParams.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/TestParams.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\detail\\Testing.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\detail\\Testing.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/detail/Testing.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/detail/Testing.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\Numeric.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\Numeric.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/Numeric.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/Numeric.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\Text.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\Text.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/Text.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/Text.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\detail\\ExecHandler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\detail\\ExecHandler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/detail/ExecHandler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/detail/ExecHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\detail\\GenerationHandler.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\detail\\GenerationHandler.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/detail/GenerationHandler.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/detail/GenerationHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\detail\\Recipe.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\detail\\Recipe.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/detail/Recipe.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/detail/Recipe.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ammar/Documents/Kernal/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRC_SEED_SYSTEM_TIME -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/rapidcheck_autogen/include -IC:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/include  -Wall -Wno-missing-braces -Wno-unused-command-line-argument -g -std=c++11 -o _deps\\rapidcheck-build\\CMakeFiles\\rapidcheck.dir\\src\\gen\\detail\\ScaleInteger.cpp.obj -c C:\\Users\\Ammar\\Documents\\Kernal\\build\\_deps\\rapidcheck-src\\src\\gen\\detail\\ScaleInteger.cpp",
+  "file": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-src/src/gen/detail/ScaleInteger.cpp",
+  "output": "C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/CMakeFiles/rapidcheck.dir/src/gen/detail/ScaleInteger.cpp.obj"
+}
+]

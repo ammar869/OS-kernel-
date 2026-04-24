@@ -1,6 +1,6 @@
-set(__QT_DEPLOY_TARGET_Catch2_FILE C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/libCatch2.a)
+set(__QT_DEPLOY_TARGET_Catch2_FILE C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/libCatch2d.a)
 set(__QT_DEPLOY_TARGET_Catch2_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_Catch2WithMain_FILE C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/libCatch2Main.a)
+set(__QT_DEPLOY_TARGET_Catch2WithMain_FILE C:/Users/Ammar/Documents/Kernal/build/_deps/catch2-build/src/libCatch2Maind.a)
 set(__QT_DEPLOY_TARGET_Catch2WithMain_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_rapidcheck_FILE C:/Users/Ammar/Documents/Kernal/build/_deps/rapidcheck-build/librapidcheck.a)
 set(__QT_DEPLOY_TARGET_rapidcheck_TYPE STATIC_LIBRARY)

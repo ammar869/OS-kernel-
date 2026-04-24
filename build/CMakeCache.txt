@@ -182,25 +182,24 @@ CATCH_INSTALL_DOCS:BOOL=ON
 CATCH_INSTALL_EXTRAS:BOOL=ON
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/addr2line.exe
+CMAKE_ADDR2LINE:FILEPATH=C:/msys64/ucrt64/bin/addr2line.exe
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/ar.exe
+CMAKE_AR:FILEPATH=C:/msys64/ucrt64/bin/ar.exe
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/Qt/Tools/mingw1310_64/bin/g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/gcc-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=C:/msys64/ucrt64/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/gcc-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -221,10 +220,10 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //No help, variable specified on the command line.
-CMAKE_C_COMPILER:UNINITIALIZED=C:/Qt/Tools/mingw1310_64/bin/gcc.exe
+CMAKE_C_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/gcc.exe
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/dlltool.exe
+CMAKE_DLLTOOL:FILEPATH=C:/msys64/ucrt64/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -244,8 +243,8 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of build database during the build.
 CMAKE_EXPORT_BUILD_DATABASE:BOOL=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Ammar/Documents/Kernal/build/CMakeFiles/pkgRedirects
@@ -305,10 +304,10 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/ld.exe
+CMAKE_LINKER:FILEPATH=C:/msys64/ucrt64/bin/ld.exe
 
-//Program used to build from build.ninja files.
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/ninja-win/ninja.exe
+//No help, variable specified on the command line.
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=c:\Users\Ammar\.kiro\extensions\kylinideteam.kylin-cmake-tools-0.2.0-universal\res\ninja\win32-x64\ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -331,16 +330,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/nm.exe
+CMAKE_NM:FILEPATH=C:/msys64/ucrt64/bin/nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=C:/msys64/ucrt64/bin/objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/objdump.exe
-
-//No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=C:/Qt/6.11.0/mingw_64
+CMAKE_OBJDUMP:FILEPATH=C:/msys64/ucrt64/bin/objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -373,7 +369,7 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/ranlib.exe
+CMAKE_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/ranlib.exe
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/windres.exe
@@ -394,7 +390,7 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/readelf.exe
+CMAKE_READELF:FILEPATH=C:/msys64/ucrt64/bin/readelf.exe
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -444,7 +440,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/strip.exe
+CMAKE_STRIP:FILEPATH=C:/msys64/ucrt64/bin/strip.exe
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
